@@ -32,7 +32,7 @@
       "id": "architectural-editorial",
       "name": "Architectural Editorial",
       "description": "Архитектурные сайты, соединяющие строгую редакционную сетку с крупной проектной фотографией. В основе лежат масштабные заголовки, тонкие линии и ясная последовательность кейсов.",
-      "reference_count": 4,
+      "reference_count": 10,
       "common_tags": ["architecture", "editorial grid", "large imagery", "structured typography"],
       "palette": ["#F5F5F5", "#111111", "#BFCCD1", "#755F51", "#B3241D"],
       "composition_principles": ["Фотография занимает большую часть экрана", "Текст привязан к сетке", "Кейсы чередуются с объясняющими блоками", "Навигация компактная и периферийная"]

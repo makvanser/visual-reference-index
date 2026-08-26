@@ -1679,6 +1679,524 @@
           }
         ]
       }
+    },
+    {
+      "id": "ref-025",
+      "image": "/screens/kononenko-architectural-bureau-awwwards-cover.png",
+      "source_file": "kononenko-architectural-bureau-awwwards-cover.png",
+      "analysis_status": "source-reviewed",
+      "site_name": "Kononenko Architectural Bureau",
+      "site_name_confidence": "source-verified",
+      "site_type": "architecture bureau / portfolio / real estate",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Портфолио архитектурного бюро построено на чередовании полноэкранных визуализаций и почти пустых чёрно-белых редакционных разворотов. Крупный контрастный serif, нейтральный grotesk и микротекст превращают каталог проектов в спокойное пространственное повествование.",
+      "why_it_works": "Архитектурные изображения получают максимальный масштаб, а строгая типографическая система и редкие служебные подписи сохраняют ясность даже при резких сменах светлых и тёмных сцен.",
+      "tags": [
+        "architectural editorial",
+        "serif sans pairing",
+        "full-bleed imagery",
+        "black white system",
+        "immersive motion",
+        "micro navigation"
+      ],
+      "colors": [
+        {"hex": "#FFFFFF", "role": "основной светлый фон, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#000000", "role": "тёмные разделы и типографика, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#D1D4D3", "role": "мягкий серый в архитектурных визуализациях", "confidence": "medium"},
+        {"hex": "#A29A88", "role": "приглушённый природный тон изображений", "confidence": "medium"}
+      ],
+      "background": {
+        "description": "чистые белые и глубокие чёрные поля сменяются полноэкранной архитектурной фотографией и визуализациями",
+        "colors": ["#FFFFFF", "#000000", "#D1D4D3"]
+      },
+      "accent_colors": ["#A29A88"],
+      "typography": {
+        "style": "контрастный редакционный serif для смысловых заявлений и нейтральный grotesk для навигации, метаданных и индексов",
+        "font_character": ["serif", "grotesk", "editorial display"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 72-130 px на desktop; отдельные цитаты занимают почти всю ширину экрана",
+        "body": "примерно 14-20 px; навигация и проектные метки 10-13 px",
+        "text_density": "низкая в hero и переходных сценах, средняя в about, team и project details"
+      },
+      "layout": {
+        "composition": "полноэкранные изображения чередуются с асимметричными типографическими разворотами, наклонными фотокарточками и двухчастными проектными сценами",
+        "page_structure": ["компактная верхняя навигация", "архитектурный hero", "about statement", "works index", "team и awards", "project details", "contact и footer"],
+        "columns": "12-колоночная редакционная сетка; контент часто собран в 5/7 или две равные зоны",
+        "image_treatment": "крупные landscape-кадры без декоративных рамок, портретные карточки поверх типографического поля и полноэкранные визуализации",
+        "proportions": "преимущественно 16:9 и 4:3, дополненные вертикальными 3:4 карточками",
+        "whitespace": "очень щедрый; пустое поле работает как пауза между насыщенными проектными сценами"
+      },
+      "grid": {
+        "type": "asymmetric architectural editorial grid",
+        "columns": 12,
+        "alignment": "мелкие подписи закреплены на краях, крупный текст свободно пересекает центральные колонки"
+      },
+      "spacing": {
+        "character": "широкие внешние поля и редкие, точно собранные текстовые группы",
+        "section_gap": "примерно 120-220 px либо целый экран",
+        "internal_padding": "24-64 px на desktop"
+      },
+      "ui_elements": {
+        "navigation": "минимальная текстовая навигация по верхнему краю и компактные номера проектов",
+        "buttons": "текстовые ссылки и сдержанные переходы без массивных CTA",
+        "borders": "тонкие линии и разделители используются точечно",
+        "radii": "заметные скругления в интерфейсе сайта не выявлены",
+        "controls": "project index, hover states, contact links и навигация по работам"
+      },
+      "textures": ["архитектурная фотография", "матовые бетонные и природные поверхности", "чистые однотонные поля"],
+      "graphic_elements": ["крупные serif-заявления", "цифровые индексы", "наклонные фотокарточки", "тонкие направляющие"],
+      "inferred_interactions": ["hover-анимация проектов", "плавные переходы между светлыми и тёмными сценами", "scroll-reveal типографики", "анимированные project details"],
+      "notes": [
+        "Название, награда, дата, оценки, авторство, категории, палитра и технологии проверены по Awwwards 26 августа 2026",
+        "Hover Animation опубликована Awwwards как отдельный inspiration-элемент; остальные motion-приёмы подтверждены опубликованными видео",
+        "Точные гарнитуры по кадрам не определяются"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/kononenko-architectural-bureau",
+        "live_site_url": "https://kononenkogroup.com",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "Website for Kononenko Architectural Bureau, showcasing projects and design approach through minimalism, bold typography, thoughtful structure and immersive interactions.",
+        "creators": ["Reksa Andhika", "Artem Shcherban"],
+        "award": {
+          "name": "Site of the Day",
+          "date": "2026-08-23",
+          "score": 7.27,
+          "score_breakdown": {"design": 7.34, "usability": 7.14, "creativity": 7.2, "content": 7.48},
+          "developer_score": 7.59
+        },
+        "verified_palette": ["#FFFFFF", "#000000"],
+        "disciplines": ["Architecture", "Business & Corporate", "Real Estate"],
+        "experience_traits": ["Animation", "Clean", "Minimal", "Content architecture", "Interaction Design", "About Page"],
+        "technologies": ["Figma"],
+        "cover_image": "/materials/ref-025/awwwards-cover.png",
+        "elements": [
+          {"name": "Hover Animation", "source_url": "https://www.awwwards.com/inspiration/hover-animation-kononenko-architectural-bureau", "tags": ["hover", "animation"], "images": ["/materials/ref-025/hover-animation.jpg"], "videos": ["/materials/ref-025/hover-animation.mp4"]},
+          {"name": "About Us", "source_url": "https://www.awwwards.com/inspiration/about-us-kononenko-architectural-bureau", "tags": ["about page", "editorial typography"], "images": ["/materials/ref-025/about-us.jpg"], "videos": ["/materials/ref-025/about-us.mp4"]},
+          {"name": "Works", "source_url": "https://www.awwwards.com/inspiration/works-kononenko-architectural-bureau", "tags": ["projects", "portfolio index"], "images": ["/materials/ref-025/works.jpg"], "videos": ["/materials/ref-025/works.mp4"]},
+          {"name": "404", "source_url": "https://www.awwwards.com/inspiration/404-kononenko-architectural-bureau", "tags": ["404 page", "architecture"], "images": ["/materials/ref-025/404.png"]},
+          {"name": "Trust Us", "source_url": "https://www.awwwards.com/inspiration/trust-us-kononenko-architectural-bureau", "tags": ["statement", "typography"], "images": ["/materials/ref-025/trust-us.png"]},
+          {"name": "Team", "source_url": "https://www.awwwards.com/inspiration/team-kononenko-architectural-bureau", "tags": ["team", "portrait cards"], "images": ["/materials/ref-025/team.png"]},
+          {"name": "Awards", "source_url": "https://www.awwwards.com/inspiration/awards-kononenko-architectural-bureau", "tags": ["awards", "index"], "images": ["/materials/ref-025/awards.jpg"], "videos": ["/materials/ref-025/awards.mp4"]},
+          {"name": "Work Details", "source_url": "https://www.awwwards.com/inspiration/work-details-kononenko-architectural-bureau", "tags": ["case study", "project detail"], "images": ["/materials/ref-025/work-details.png"]},
+          {"name": "Footer", "source_url": "https://www.awwwards.com/inspiration/footer-kononenko-architectural-bureau", "tags": ["footer", "contact"], "images": ["/materials/ref-025/footer.png"]},
+          {"name": "Contact", "source_url": "https://www.awwwards.com/inspiration/contact-kononenko-architectural-bureau", "tags": ["contact", "form"], "images": ["/materials/ref-025/contact.png"]},
+          {"name": "Branding", "source_url": "https://www.awwwards.com/inspiration/branding-kononenko-architectural-bureau", "tags": ["branding", "architectural photography"], "images": ["/materials/ref-025/branding.png"]},
+          {"name": "Desktop", "source_url": "https://www.awwwards.com/inspiration/desktop-kononenko-architectural-bureau", "tags": ["desktop", "responsive"], "images": ["/materials/ref-025/desktop.png"]}
+        ]
+      }
+    },
+    {
+      "id": "ref-026",
+      "image": "/screens/eladio-dieste-awwwards-cover.jpg",
+      "source_file": "eladio-dieste-awwwards-cover.jpg",
+      "analysis_status": "source-reviewed",
+      "site_name": "Eladio Dieste",
+      "site_name_confidence": "source-verified",
+      "site_type": "architecture archive / cultural editorial / portfolio",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Цифровой архив наследия уругвайского инженера строится на тёплой кирпичной фотографии, огромной нейтральной типографике и чёрных исследовательских полях. Биография, хронология и галерея превращены в последовательное визуальное эссе.",
+      "why_it_works": "Материальность кирпича и архивных кадров получает эмоциональный масштаб, а жёсткая сетка, крупные даты и резкий контраст чёрного с терракотой удерживают длинное повествование собранным.",
+      "tags": ["architectural archive", "warm brick", "oversized grotesk", "black editorial", "timeline mosaic", "parallax storytelling"],
+      "colors": [
+        {"hex": "#000000", "role": "фон хронологии и биографических разделов", "confidence": "high"},
+        {"hex": "#F1EEE8", "role": "тёплое светлое поле и типографика", "confidence": "high"},
+        {"hex": "#AD5E2F", "role": "терракотовый цвет кирпича и акцентных сцен", "confidence": "medium"},
+        {"hex": "#7A2F18", "role": "глубокий кирпично-коричневый", "confidence": "medium"},
+        {"hex": "#FFFFFF", "role": "крупные заголовки поверх фотографии", "confidence": "high"}
+      ],
+      "background": {"description": "чередование полноэкранной терракотовой архитектурной фотографии, чёрных архивных сцен и тёплого светлого поля", "colors": ["#000000", "#F1EEE8", "#AD5E2F"]},
+      "accent_colors": ["#AD5E2F", "#7A2F18"],
+      "typography": {
+        "style": "нейтральный grotesk в экстремальном display-масштабе с компактными служебными подписями и датами",
+        "font_character": ["grotesk", "oversized display", "editorial sans"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 110-230 px; имя в hero занимает почти весь экран",
+        "body": "примерно 16-22 px; подписи хронологии 11-14 px",
+        "text_density": "низкая в hero, высокая в timeline mosaic и биографическом тексте"
+      },
+      "layout": {
+        "composition": "крупный типографический hero, мозаичная хронология на чёрном поле, полноэкранные биографические фразы и параллакс-галерея",
+        "page_structure": ["hero animation", "timeline", "biography", "architecture gallery", "works", "mobile adaptation", "footer"],
+        "columns": "12-колоночная сетка; timeline складывается в переменный фотомозаичный ритм",
+        "image_treatment": "full-bleed архитектурная фотография, архивные карточки разных размеров и последовательные крупные детали кирпичных конструкций",
+        "proportions": "широкие 16:9 и 3:2 кадры, вертикальные архивные фотографии и мобильные 9:16 экраны",
+        "whitespace": "просторный в hero и footer; хронология намеренно плотная"
+      },
+      "grid": {"type": "narrative archive grid", "columns": 12, "alignment": "крупные заголовки привязаны к краям, даты и фотографии собираются в модульную временную шкалу"},
+      "spacing": {"character": "чередование полноэкранных пауз и плотных архивных кластеров", "section_gap": "примерно 120-240 px или один viewport", "internal_padding": "24-56 px на desktop"},
+      "ui_elements": {
+        "navigation": "тонкая горизонтальная навигация поверх hero и компактные ссылки по краям",
+        "buttons": "преимущественно текстовые ссылки и переходы по хронологии",
+        "borders": "тонкие линии временной шкалы и деликатные разделители",
+        "radii": "видимые скругления не являются частью системы",
+        "controls": "timeline hover, gallery navigation и переходы к works"
+      },
+      "textures": ["кирпичная кладка", "архивная фотография", "бетон и естественный свет"],
+      "graphic_elements": ["огромные даты", "фотомозаика", "тонкая временная линия", "контрастные чёрные поля"],
+      "inferred_interactions": ["анимированный hero", "hover по временной шкале", "переходы биографии", "parallax-галерея", "адаптивная мобильная композиция"],
+      "notes": [
+        "Название, авторство, награда, дата, категории и технологии проверены по Awwwards 26 августа 2026",
+        "Awwwards не публикует палитру и итоговый числовой рейтинг для этого Honorable Mention; цвета выше определены визуально и score оставлен null",
+        "Точная гарнитура неизвестна"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/eladio-dieste",
+        "live_site_url": "https://www.eladiodieste.com/",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "An experimental website celebrating Eladio Dieste, Uruguayan civil engineer, translating his legacy into digital design.",
+        "creators": ["++hellohello", "Pablo Picart", "Ismael Martínez", "SEB®"],
+        "award": {"name": "Honorable Mention", "date": "2026-08-01", "score": null, "developer_score": null},
+        "verified_palette": [],
+        "disciplines": ["Photography", "Architecture", "Culture & Education"],
+        "experience_traits": ["Responsive Design", "Transitions", "Storytelling", "Clean", "UI design", "Photographic"],
+        "technologies": ["GSAP", "Three.js", "Next.js"],
+        "cover_image": "/materials/ref-026/awwwards-cover.jpg",
+        "elements": [
+          {"name": "Hero Animation", "source_url": "https://www.awwwards.com/inspiration/hero-animation-eladio-dieste", "tags": ["hero", "animation"], "images": ["/materials/ref-026/hero-animation.jpg"], "videos": ["/materials/ref-026/hero-animation.mp4"]},
+          {"name": "Timeline Hover", "source_url": "https://www.awwwards.com/inspiration/timeline-hover-eladio-dieste", "tags": ["timeline", "hover"], "images": ["/materials/ref-026/timeline-hover.jpg"], "videos": ["/materials/ref-026/timeline-hover.mp4"]},
+          {"name": "Biography Page", "source_url": "https://www.awwwards.com/inspiration/biography-page-eladio-dieste", "tags": ["biography", "typography"], "images": ["/materials/ref-026/biography-page.jpg"], "videos": ["/materials/ref-026/biography-page.mp4"]},
+          {"name": "Gallery Parallax", "source_url": "https://www.awwwards.com/inspiration/gallery-parallax-eladio-dieste", "tags": ["gallery", "parallax"], "images": ["/materials/ref-026/gallery-parallax.jpg"], "videos": ["/materials/ref-026/gallery-parallax.mp4"]},
+          {"name": "Footer", "source_url": "https://www.awwwards.com/inspiration/footer-eladio-dieste", "tags": ["footer", "display typography"], "images": ["/materials/ref-026/footer.png"]},
+          {"name": "Mobile", "source_url": "https://www.awwwards.com/inspiration/mobile-eladio-dieste", "tags": ["mobile", "responsive"], "images": ["/materials/ref-026/mobile.png"]},
+          {"name": "Work Page", "source_url": "https://www.awwwards.com/inspiration/work-page-eladio-dieste", "tags": ["work page", "architecture"], "images": ["/materials/ref-026/work-page.jpg"], "videos": ["/materials/ref-026/work-page.mp4"]}
+        ]
+      }
+    },
+    {
+      "id": "ref-027",
+      "image": "/screens/normal-is-boring-awwwards-cover.jpg",
+      "source_file": "normal-is-boring-awwwards-cover.jpg",
+      "analysis_status": "source-reviewed",
+      "site_name": "NORMAL IS BORING",
+      "site_name_confidence": "source-verified",
+      "site_type": "luxury real estate / architecture / brand portfolio",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Сайт премиальной недвижимости подаёт архитектуру через полноэкранные интерьерные фотографии и плавающие светлые панели с заметным скруглением. Контрастный serif, спокойный sans и перевёрнутый знак BORING IS создают модную редакционную интонацию вместо привычного листинга объектов.",
+      "why_it_works": "Кинематографичная фотография отвечает за желание, а повторяемая рамочная композиция, ясная типографическая пара и компактные controls делают экспериментальный бренд понятным и пригодным для просмотра проектов.",
+      "tags": ["luxury real estate", "layered canvas", "display serif", "rounded frame", "editorial interiors", "pale blue menu"],
+      "colors": [
+        {"hex": "#000000", "role": "типографика и активные controls, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#FFFFFF", "role": "основные плавающие панели, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#EDE5D8", "role": "тёплый интерьерный нейтральный", "confidence": "medium"},
+        {"hex": "#C9D8EA", "role": "светло-голубое поле меню", "confidence": "medium"},
+        {"hex": "#8C6B4B", "role": "дерево и коричневые детали фотографии", "confidence": "medium"}
+      ],
+      "background": {"description": "полноэкранные фотографии домов служат внешним полем для белых, кремовых и светло-голубых интерфейсных холстов", "colors": ["#FFFFFF", "#EDE5D8", "#C9D8EA"]},
+      "accent_colors": ["#C9D8EA", "#8C6B4B"],
+      "typography": {
+        "style": "высококонтрастный editorial serif для крупных заявлений в паре с чистым нейтральным grotesk",
+        "font_character": ["serif", "grotesk", "display"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 72-150 px, часто на 2-3 строки внутри рамочного холста",
+        "body": "примерно 15-22 px; навигация и подписи 11-14 px",
+        "text_density": "низкая в hero, средняя в projects и about"
+      },
+      "layout": {
+        "composition": "слоёная сцена: полноэкранный архитектурный фон, поверх него крупный скруглённый canvas с типографикой, галереей или split-layout",
+        "page_structure": ["брендовый hero", "projects overview", "project gallery", "about", "design manifesto", "полноэкранное menu", "desktop и mobile layouts"],
+        "columns": "12-колоночная система; внутри canvas преобладают 6/6 и асимметричные 5/7 деления",
+        "image_treatment": "атмосферные интерьерные и архитектурные фотографии на весь экран, крупные карточки и обрезанные edge-to-edge галереи",
+        "proportions": "широкие 16:9 и 4:3, вертикальные интерьерные фрагменты, mobile 9:16",
+        "whitespace": "щедрый внутри светлых панелей; наружный фон намеренно насыщен фотографией"
+      },
+      "grid": {"type": "layered real-estate editorial grid", "columns": 12, "alignment": "заголовки и микронавигация привязаны к краям плавающего холста, изображения собираются в модульные пары"},
+      "spacing": {"character": "крупные внутренние поля в сочетании с плотным полноэкранным окружением", "section_gap": "96-180 px или один viewport", "internal_padding": "28-72 px; menu-control около 12-18 px"},
+      "ui_elements": {
+        "navigation": "компактная верхняя навигация и чёрная pill-кнопка Menu",
+        "buttons": "небольшие pills и подчёркнутые текстовые ссылки",
+        "borders": "тонкие разделители и контуры отдельных controls",
+        "radii": "крупные скругления примерно 20-28 px у основных canvas, полные у pills",
+        "controls": "project navigation, полноэкранное menu, gallery controls и mobile menu"
+      },
+      "textures": ["тёплое дерево", "камень", "мягкий естественный свет", "матовые интерьерные поверхности"],
+      "graphic_elements": ["перевёрнутый BORING IS wordmark", "плавающая белая рамка", "контрастная serif-типографика", "светло-голубое menu field"],
+      "inferred_interactions": ["плавные переходы между проектами", "смена фоновой фотографии", "анимированная галерея", "раскрытие полноэкранного menu", "адаптивная перестройка canvas"],
+      "notes": [
+        "Название, Site of the Day, дата, оценки, авторство, палитра, категории и технологии проверены по Awwwards 26 августа 2026",
+        "Анимации и transitions подтверждены опубликованными Awwwards materials; точная механика live-сайта не утверждается",
+        "Точные гарнитуры неизвестны"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/normal-is-boring",
+        "live_site_url": "https://normalisboring.es/",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "Avant-garde branding and digital experience for a luxury real estate brand redefining the sector through design, motion and unconventional narrative.",
+        "creators": ["LaNegrita"],
+        "award": {
+          "name": "Site of the Day",
+          "date": "2026-07-23",
+          "score": 7.17,
+          "score_breakdown": {"design": 7.27, "usability": 7, "creativity": 7.19, "content": 7.25},
+          "developer_score": 7.49
+        },
+        "verified_palette": ["#000000", "#FFFFFF"],
+        "disciplines": ["Architecture", "Photography", "Luxury"],
+        "experience_traits": ["Animation", "Clean", "Graphic design", "Typography", "Transitions", "UI design"],
+        "technologies": ["Wordpress", "CSS", "GSAP"],
+        "cover_image": "/materials/ref-027/awwwards-cover.jpg",
+        "elements": [
+          {"name": "Projects", "source_url": "https://www.awwwards.com/inspiration/projects-normal-is-boring", "tags": ["projects", "real estate"], "images": ["/materials/ref-027/projects.jpg"]},
+          {"name": "Projects Page", "source_url": "https://www.awwwards.com/inspiration/projects-page-normal-is-boring", "tags": ["projects page", "editorial grid"], "images": ["/materials/ref-027/projects-page.jpg"]},
+          {"name": "Gallery Projects", "source_url": "https://www.awwwards.com/inspiration/projects-page-normal-is-boring-1", "tags": ["gallery", "project photography"], "images": ["/materials/ref-027/gallery-projects.jpg"]},
+          {"name": "About Us", "source_url": "https://www.awwwards.com/inspiration/about-us-normal-is-boring", "tags": ["about page", "brand story"], "images": ["/materials/ref-027/about-us.jpg"]},
+          {"name": "Design Layout", "source_url": "https://www.awwwards.com/inspiration/design-layout-normal-is-boring", "tags": ["layout", "typography"], "images": ["/materials/ref-027/design-layout.jpg"]},
+          {"name": "Menu", "source_url": "https://www.awwwards.com/inspiration/menu-normal-is-boring", "tags": ["menu", "navigation"], "images": ["/materials/ref-027/menu.jpg"]},
+          {"name": "Desktop", "source_url": "https://www.awwwards.com/inspiration/desktop-normal-is-boring", "tags": ["desktop", "responsive"], "images": ["/materials/ref-027/desktop.jpg"]},
+          {"name": "Mobile", "source_url": "https://www.awwwards.com/inspiration/mobile-normal-is-boring", "tags": ["mobile", "responsive"], "images": ["/materials/ref-027/mobile.jpg"]}
+        ]
+      }
+    },
+    {
+      "id": "ref-028",
+      "image": "/screens/era-residence-awwwards-cover.png",
+      "source_file": "era-residence-awwwards-cover.png",
+      "analysis_status": "source-reviewed",
+      "site_name": "ERA Residence",
+      "site_name_confidence": "source-verified",
+      "site_type": "luxury residence / real estate / architecture",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Промо-сайт средиземноморской резиденции соединяет яркую курортную фотографию с огромным узким serif, каллиграфическими акцентами и ботанической сине-розовой палитрой. Day/night scenes, горизонтальная галерея и технические планы квартир превращают объект в насыщенную lifestyle-историю.",
+      "why_it_works": "Выразительная типографика и фирменная палитра создают запоминаемый образ места, а чередование эмоциональных сцен с планами, карточками объектов и key features сохраняет продуктовую конкретику.",
+      "tags": ["Mediterranean luxury", "condensed serif", "blue pink palette", "day night mode", "botanical framing", "horizontal scroll"],
+      "colors": [
+        {"hex": "#B5CEDB", "role": "небесно-голубой фирменный фон, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#F8BBCB", "role": "розовый акцент, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#234985", "role": "глубокий синий текста и night scenes", "confidence": "medium"},
+        {"hex": "#F5F4EC", "role": "тёплые информационные панели", "confidence": "high"},
+        {"hex": "#7A0639", "role": "винный цвет ботаники и акцентных заголовков", "confidence": "medium"}
+      ],
+      "background": {"description": "солнечная архитектурная фотография, светло-голубые и кремовые поля, дополненные глубокими ночными синими сценами", "colors": ["#B5CEDB", "#F5F4EC", "#234985"]},
+      "accent_colors": ["#F8BBCB", "#7A0639"],
+      "typography": {
+        "style": "очень высокий контрастный condensed serif в паре с декоративным рукописным акцентом и микроскопическим uppercase sans",
+        "font_character": ["condensed serif", "script", "grotesk"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 100-210 px; названия секций часто заполняют всю высоту композиции",
+        "body": "примерно 15-21 px; uppercase labels 10-13 px",
+        "text_density": "низкая в атмосферных сценах, средняя в listings и key features"
+      },
+      "layout": {
+        "composition": "hero с крупным display-title, ботанические и фотографические наложения, горизонтальные последовательности, карточки объектов и технические планы",
+        "page_structure": ["day/night hero", "pre-loader", "main story", "horizontal gallery", "key features", "listing", "property cards", "about", "contact и 404"],
+        "columns": "12 колонок; scene layouts используют широкую центральную ось, listings — 2-3 колонки и split 5/7",
+        "image_treatment": "полноэкранные виды архитектуры и моря, вырезанные цветы поверх рамки, портретные карточки, планы квартир и кинематографичные видеопетли",
+        "proportions": "16:9 hero, 3:2 и 4:3 property imagery, вертикальные карточки и чертежи",
+        "whitespace": "щедрый вокруг display-type, но декоративные наложения делают ключевые сцены насыщенными"
+      },
+      "grid": {"type": "cinematic property editorial grid", "columns": 12, "alignment": "центрированные заголовки сменяются асимметричными карточками и техническими split-layouts"},
+      "spacing": {"character": "масштабные полноэкранные паузы, большие поля и точечные плотные data blocks", "section_gap": "120-240 px или один viewport", "internal_padding": "28-72 px"},
+      "ui_elements": {
+        "navigation": "компактное меню по краям, контекстные labels и переходы между объектами",
+        "buttons": "небольшие текстовые CTA, property cards и деликатные стрелки",
+        "borders": "тонкие рамки у информационных панелей и планов",
+        "radii": "основная система преимущественно прямоугольная; заметных постоянных скруглений нет",
+        "controls": "day/night toggle, horizontal scroll, listing filters, gallery и property navigation"
+      },
+      "textures": ["бугенвиллея", "штукатурка", "вода", "солнечные блики", "архитектурные чертежи"],
+      "graphic_elements": ["крупный condensed serif", "рукописные штрихи", "ботанические вырезки", "планы этажей", "розово-синие поля"],
+      "inferred_interactions": ["переключение day/night theme", "анимированный pre-loader", "горизонтальный scroll", "motion в key features", "property card transitions", "галерея"],
+      "notes": [
+        "Название, Honorable Mention, дата, авторство, палитра, категории и технологии проверены по Awwwards 26 августа 2026",
+        "Awwwards не показывает итоговый рейтинг для этого Honorable Mention, поэтому score оставлен null",
+        "Day/night, pre-loader, horizontal scroll и gallery подтверждены отдельными опубликованными material cards"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/era-residence",
+        "live_site_url": "https://www.era-residence.com/",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "Contemporary Mediterranean boutique residences on the New Golden Mile near Marbella and Estepona.",
+        "creators": ["The First The Last", "Maksym Stepenko", "Ivan Chopei"],
+        "award": {"name": "Honorable Mention", "date": "2026-07-21", "score": null, "developer_score": null},
+        "verified_palette": ["#B5CEDB", "#F8BBCB"],
+        "disciplines": ["Architecture", "Real Estate", "Luxury"],
+        "experience_traits": ["Parallax", "Storytelling", "Photo & Video"],
+        "technologies": ["GSAP", "Webflow"],
+        "cover_image": "/materials/ref-028/awwwards-cover.png",
+        "elements": [
+          {"name": "Day Night Theme", "source_url": "https://www.awwwards.com/inspiration/day-night-theme-era-residence", "tags": ["day night", "theme"], "images": ["/materials/ref-028/day-night-theme.jpg"], "videos": ["/materials/ref-028/day-night-theme.mp4"]},
+          {"name": "Pre-loader", "source_url": "https://www.awwwards.com/inspiration/pre-loader-era-residence", "tags": ["preloader", "animation"], "images": ["/materials/ref-028/pre-loader.jpg"], "videos": ["/materials/ref-028/pre-loader.mp4"]},
+          {"name": "Listing Page", "source_url": "https://www.awwwards.com/inspiration/listing-page-era-residence", "tags": ["listing", "real estate"], "images": ["/materials/ref-028/listing-page.jpg"], "videos": ["/materials/ref-028/listing-page.mp4"]},
+          {"name": "Horizontal Scroll", "source_url": "https://www.awwwards.com/inspiration/horizontal-scroll-era-residence", "tags": ["horizontal scroll", "gallery"], "images": ["/materials/ref-028/horizontal-scroll.jpg"], "videos": ["/materials/ref-028/horizontal-scroll.mp4"]},
+          {"name": "Key Features", "source_url": "https://www.awwwards.com/inspiration/key-features-era-residence", "tags": ["features", "motion"], "images": ["/materials/ref-028/key-features.jpg"], "videos": ["/materials/ref-028/key-features.mp4"]},
+          {"name": "Main Page", "source_url": "https://www.awwwards.com/inspiration/main-page-era-residence", "tags": ["main page", "storytelling"], "images": ["/materials/ref-028/main-page.jpg"], "videos": ["/materials/ref-028/main-page.mp4"]},
+          {"name": "404", "source_url": "https://www.awwwards.com/inspiration/404-era-residence", "tags": ["404 page", "branding"], "images": ["/materials/ref-028/404.png"]},
+          {"name": "Contact Page", "source_url": "https://www.awwwards.com/inspiration/contact-page-era-residence", "tags": ["contact", "form"], "images": ["/materials/ref-028/contact-page.png"]},
+          {"name": "About", "source_url": "https://www.awwwards.com/inspiration/about-era-residence", "tags": ["about", "architecture"], "images": ["/materials/ref-028/about.png"]},
+          {"name": "Property Card", "source_url": "https://www.awwwards.com/inspiration/property-card-era-residence", "tags": ["property card", "listing"], "images": ["/materials/ref-028/property-card.png"]},
+          {"name": "Property Card Motion", "source_url": "https://www.awwwards.com/inspiration/property-card-era-residence-1", "tags": ["property card", "motion"], "images": ["/materials/ref-028/property-card-motion.jpg"], "videos": ["/materials/ref-028/property-card-motion.mp4"]},
+          {"name": "Gallery", "source_url": "https://www.awwwards.com/inspiration/gallery-era-residence", "tags": ["gallery", "photo video"], "images": ["/materials/ref-028/gallery.jpg"], "videos": ["/materials/ref-028/gallery.mp4"]}
+        ]
+      }
+    },
+    {
+      "id": "ref-029",
+      "image": "/screens/the-red-awwwards-cover.png",
+      "source_file": "the-red-awwwards-cover.png",
+      "analysis_status": "source-reviewed",
+      "site_name": "THE RED",
+      "site_name_confidence": "source-verified",
+      "site_type": "commercial architecture / real estate / place brand",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Сайт знаменитого красного здания в Чикаго превращает архитектурный цвет в цельную цифровую среду. Бордовые поля, гигантская деформированная типографика, обрезанные фасадные кадры и WebGL-паттерны работают как энергичный городской плакат.",
+      "why_it_works": "Одна радикально последовательная красная палитра делает объект мгновенно узнаваемым, а масштаб текста, параллакс и цифровая деформация связывают историю здания с современным интерактивным характером.",
+      "tags": ["monochrome red", "distorted grotesk", "typographic architecture", "WebGL pattern", "bold grid", "parallax"],
+      "colors": [
+        {"hex": "#C32D30", "role": "основной красный, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#2D000D", "role": "глубокий бордовый фон, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#000000", "role": "контрастная типографика и формы", "confidence": "high"},
+        {"hex": "#F14045", "role": "яркий красный свет в интерактивных сценах", "confidence": "medium"}
+      ],
+      "background": {"description": "монохромные красные и глубокие бордовые поля, иногда заменённые крупным кадром фасада", "colors": ["#C32D30", "#2D000D", "#F14045"]},
+      "accent_colors": ["#000000"],
+      "typography": {
+        "style": "тяжёлый широкий grotesk и кастомные деформированные display-формы, работающие как архитектурный паттерн",
+        "font_character": ["grotesk", "custom display", "block typography"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 120-260 px; текст часто обрезан краями viewport",
+        "body": "примерно 16-22 px; служебные labels 11-14 px",
+        "text_density": "низкая по количеству, очень высокая по визуальному весу"
+      },
+      "layout": {
+        "composition": "центральные типографические плакаты сменяются параллакс-кадрами здания, WebGL-полями и жёстким двухчастным footer",
+        "page_structure": ["loading animation", "типографический hero", "история здания", "parallax architecture", "WebGL interaction", "inquiries и big footer"],
+        "columns": "12-колоночная жёсткая сетка; крупные сцены используют центральную ось, footer — 6/6",
+        "image_treatment": "детали красного фасада обрезаются до абстрактных цветовых плоскостей и появляются под огромным текстом",
+        "proportions": "полноэкранные 16:9 сцены, широкие фасадные фрагменты и квадратные WebGL-паттерны",
+        "whitespace": "пустое пространство минимально; его заменяют цветовое поле и масштабный текст"
+      },
+      "grid": {"type": "poster-like architectural grid", "columns": 12, "alignment": "крупная типографика центрируется или жёстко прижимается к краям; сервисные данные остаются в строгих нижних колонках"},
+      "spacing": {"character": "плотные полноэкранные сцены с крупными полями внутри footer", "section_gap": "переходы между viewport-сценами", "internal_padding": "24-64 px"},
+      "ui_elements": {
+        "navigation": "минимальная периферийная навигация поверх цветового поля",
+        "buttons": "текстовые CTA и крупные интерактивные типографические зоны",
+        "borders": "тонкие линии в формах и footer-grid",
+        "radii": "скругления не выявлены; система намеренно жёсткая",
+        "controls": "scroll scenes, WebGL gesture field, inquiry form и footer links"
+      },
+      "textures": ["окрашенный фасад", "цифровое искажение", "пиксельный WebGL-паттерн", "монохромное красное свечение"],
+      "graphic_elements": ["гигантские обрезанные буквы", "искажённая сетка символов", "красные плоскости", "архитектурный фасад как паттерн"],
+      "inferred_interactions": ["loading animation", "parallax scroll", "WebGL interaction", "gesture-based distortion", "анимированный big footer"],
+      "notes": [
+        "Название, Honorable Mention, дата, авторство, палитра, категории и технологии проверены по Awwwards 26 августа 2026",
+        "Awwwards не публикует итоговый числовой рейтинг для этого Honorable Mention, поэтому score оставлен null",
+        "Названия и URL inspiration-элементов сохранены точно в том соответствии, которое опубликовано на исходной странице Awwwards"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/the-red",
+        "live_site_url": "https://www.333southwabash.com/",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "An iconic Chicago red building since 1972, expressed through a bold monochrome identity and interactive architectural storytelling.",
+        "creators": ["madethought", "Aristide Benoist"],
+        "award": {"name": "Honorable Mention", "date": "2026-06-02", "score": null, "developer_score": null},
+        "verified_palette": ["#C32D30", "#2D000D"],
+        "disciplines": ["Architecture", "Food & Drink", "Real Estate"],
+        "experience_traits": ["Colorful", "Scrolling", "Typography", "3D", "Gestures / Interaction"],
+        "technologies": ["WebGL", "Javascript"],
+        "cover_image": "/materials/ref-029/awwwards-cover.png",
+        "elements": [
+          {"name": "Loading Animation", "source_url": "https://www.awwwards.com/inspiration/big-footer-the-red", "tags": ["loading", "animation"], "images": ["/materials/ref-029/loading-animation.jpg"], "videos": ["/materials/ref-029/loading-animation.mp4"]},
+          {"name": "Parallax Scroll", "source_url": "https://www.awwwards.com/inspiration/parallax-scroll-the-red", "tags": ["parallax", "scroll"], "images": ["/materials/ref-029/parallax-scroll.jpg"], "videos": ["/materials/ref-029/parallax-scroll.mp4"]},
+          {"name": "WebGL Interaction", "source_url": "https://www.awwwards.com/inspiration/loading-animation-the-red", "tags": ["WebGL", "interaction"], "images": ["/materials/ref-029/webgl-interaction.jpg"], "videos": ["/materials/ref-029/webgl-interaction.mp4"]},
+          {"name": "Big Footer", "source_url": "https://www.awwwards.com/inspiration/webgl-interaction-the-red", "tags": ["footer", "form"], "images": ["/materials/ref-029/big-footer.jpg"]}
+        ]
+      }
+    },
+    {
+      "id": "ref-030",
+      "image": "/screens/mara-awwwards-cover.jpg",
+      "source_file": "mara-awwwards-cover.jpg",
+      "analysis_status": "source-reviewed",
+      "site_name": "Mara",
+      "site_name_confidence": "source-verified",
+      "site_type": "furniture product catalogue / workplace design / architecture industry",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Каталог итальянской мебели использует эстетику печатного product-journal: огромный строчный wordmark, нейтральный grotesk, строгая модульная сетка и предметы на спокойных серо-кремовых полях. Категорийные индексы и технические страницы чередуются с насыщенной интерьерной фотографией.",
+      "why_it_works": "Единая типографическая шкала связывает каталог, редакционные истории и product pages, а нейтральная сцена позволяет цвету, силуэту и конструкции каждого предмета оставаться главным содержанием.",
+      "tags": ["furniture editorial", "oversized wordmark", "modular catalogue", "neutral palette", "product precision", "architectural grid"],
+      "colors": [
+        {"hex": "#DAD9D4", "role": "тёплый серый фон, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#1D1D1B", "role": "основная типографика, подтверждён Awwwards", "confidence": "high"},
+        {"hex": "#F5F3EE", "role": "светлые продуктовые панели", "confidence": "high"},
+        {"hex": "#A7A7A1", "role": "холодный серый footer и вторичные поля", "confidence": "medium"},
+        {"hex": "#A9553C", "role": "терракотовый продуктовый акцент", "confidence": "medium"}
+      ],
+      "background": {"description": "тёплые серо-кремовые полноэкранные поля с редкими оливковыми, холодно-серыми и фотографическими секциями", "colors": ["#DAD9D4", "#F5F3EE", "#A7A7A1"]},
+      "accent_colors": ["#A9553C", "#536043"],
+      "typography": {
+        "style": "нейтральный геометрический grotesk с огромным жирным wordmark и тонкими oversized category labels",
+        "font_character": ["grotesk", "geometric sans", "oversized display"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 80-180 px; wordmark в footer занимает почти всю ширину",
+        "body": "примерно 14-22 px; product codes и labels 10-13 px",
+        "text_density": "средняя в каталогах, низкая в editorial layouts, высокая в product description blocks"
+      },
+      "layout": {
+        "composition": "строгие полноэкранные каталожные grids чередуются с центрированными product posters, split-фотографией и огромным типографическим footer",
+        "page_structure": ["hero и brand statement", "products menu", "category indexes", "products grid", "product page", "editorial stories", "projects и gallery", "footer"],
+        "columns": "12 колонок; product grids используют 4 карточки, product pages — трёхчастную 2/7/3 или split-композицию",
+        "image_treatment": "предметы изолированы на нейтральном поле, детали показываются крупными crop-кадрами, интерьерные истории собраны в слоёные фото",
+        "proportions": "квадратные product cards, широкие 16:9 сцены, вертикальные журнальные постеры и mobile 9:16",
+        "whitespace": "очень щедрый вокруг отдельных предметов и крупной типографики; каталожные сетки плотнее"
+      },
+      "grid": {"type": "industrial product editorial grid", "columns": 12, "alignment": "постоянная верхняя navigation baseline, крупные category labels слева и регулярные 4-колоночные product rows"},
+      "spacing": {"character": "широкие поля и точные модульные интервалы, сбалансированные плотной нижней filter bar", "section_gap": "96-200 px или один viewport", "internal_padding": "24-64 px"},
+      "ui_elements": {
+        "navigation": "логотип слева, длинное текстовое меню по центру и language link справа",
+        "buttons": "контурная Enquiry, подчёркнутые ссылки и компактные filter controls",
+        "borders": "тонкие рамки product panels и Enquiry, модульные белые разделители",
+        "radii": "скругления почти отсутствуют; система ортогональная",
+        "controls": "category filters, view switch, product enquiry, configure link и нижняя filter bar"
+      },
+      "textures": ["порошково окрашенный металл", "ткань", "матовый пластик", "мягкое зерно публикационных кадров"],
+      "graphic_elements": ["гигантский mara wordmark", "категории с цифровыми индексами", "вертикальные product posters", "тонкие cross-grid линии"],
+      "inferred_interactions": ["раскрытие products menu", "фильтрация категорий", "смена product view", "переходы между editorial scenes", "product gallery", "mobile navigation"],
+      "notes": [
+        "Название, профиль компании, Honorable Mention, дата, авторство, палитра, категории и технологии проверены по Awwwards 26 августа 2026",
+        "Awwwards не показывает итоговый рейтинг для этого Honorable Mention, поэтому score оставлен null",
+        "Mara добавлен в раздел Architectural Editorial по прямому запросу пользователя; предметный каталог визуально связан с архитектурной практикой строгой редакционной сеткой"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/mara",
+        "live_site_url": "https://marasrl.it/en/",
+        "retrieved_at": "2026-08-26",
+        "source_summary": "A historic Italian company producing innovative furniture for workplace, contract and home.",
+        "creators": ["Adoratorio Studio"],
+        "award": {"name": "Honorable Mention", "date": "2026-04-23", "score": null, "developer_score": null},
+        "verified_palette": ["#DAD9D4", "#1D1D1B"],
+        "disciplines": ["Architecture", "Business & Corporate", "Luxury"],
+        "experience_traits": ["Clean", "Colorful", "Graphic design", "Minimal", "Typography"],
+        "technologies": ["CSS", "HTML5", "Vue.js"],
+        "cover_image": "/materials/ref-030/awwwards-cover.jpg",
+        "elements": [
+          {"name": "Mobile View", "source_url": "https://www.awwwards.com/inspiration/mobile-mara", "tags": ["mobile", "responsive"], "images": ["/materials/ref-030/mobile.jpg"]},
+          {"name": "Desktop View", "source_url": "https://www.awwwards.com/inspiration/desktop-mara", "tags": ["desktop", "responsive"], "images": ["/materials/ref-030/desktop.jpg"]},
+          {"name": "Products Menu 1", "source_url": "https://www.awwwards.com/inspiration/products-menu-mara-1", "tags": ["products menu", "navigation"], "images": ["/materials/ref-030/products-menu-01.jpg"]},
+          {"name": "Editorial Layout 1", "source_url": "https://www.awwwards.com/inspiration/editorial-layout-mara-1", "tags": ["editorial layout", "product poster"], "images": ["/materials/ref-030/editorial-layout-01.jpg"]},
+          {"name": "Product Page 1", "source_url": "https://www.awwwards.com/inspiration/product-page-mara-1", "tags": ["product page", "furniture"], "images": ["/materials/ref-030/product-page-01.jpg"]},
+          {"name": "Gallery", "source_url": "https://www.awwwards.com/inspiration/gallery-mara", "tags": ["gallery", "photography"], "images": ["/materials/ref-030/gallery.jpg"]},
+          {"name": "Portfolio", "source_url": "https://www.awwwards.com/inspiration/portfolio-mara", "tags": ["portfolio", "projects"], "images": ["/materials/ref-030/portfolio.jpg"]},
+          {"name": "Editorial Layout 2", "source_url": "https://www.awwwards.com/inspiration/editorial-layout-mara", "tags": ["editorial layout", "photography"], "images": ["/materials/ref-030/editorial-layout-02.jpg"]},
+          {"name": "Products Menu 2", "source_url": "https://www.awwwards.com/inspiration/products-menu-mara", "tags": ["products menu", "categories"], "images": ["/materials/ref-030/products-menu-02.jpg"]},
+          {"name": "Editorial Layout 3", "source_url": "https://www.awwwards.com/inspiration/editorial-layout-mara-2", "tags": ["editorial layout", "brand story"], "images": ["/materials/ref-030/editorial-layout-03.jpg"]},
+          {"name": "Footer", "source_url": "https://www.awwwards.com/inspiration/footer-mara", "tags": ["footer", "oversized wordmark"], "images": ["/materials/ref-030/footer.jpg"]},
+          {"name": "Products Page 1", "source_url": "https://www.awwwards.com/inspiration/products-page-mara", "tags": ["products page", "filters"], "images": ["/materials/ref-030/products-page-01.jpg"]},
+          {"name": "Products Page 2", "source_url": "https://www.awwwards.com/inspiration/products-page-mara-1", "tags": ["products page", "catalogue"], "images": ["/materials/ref-030/products-page-02.jpg"]},
+          {"name": "Editorial Layout 4", "source_url": "https://www.awwwards.com/inspiration/editorial-layout-mara-3", "tags": ["editorial layout", "product story"], "images": ["/materials/ref-030/editorial-layout-04.jpg"]},
+          {"name": "Product Page 2", "source_url": "https://www.awwwards.com/inspiration/product-page-mara", "tags": ["product page", "details"], "images": ["/materials/ref-030/product-page-02.jpg"]}
+        ]
+      }
     }
   ]
 }

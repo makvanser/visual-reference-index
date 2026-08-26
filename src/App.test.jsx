@@ -14,12 +14,16 @@ describe('Visual Reference Index', () => {
 
     expect(screen.getByRole('heading', { name: 'Архив визуальных систем' })).toBeInTheDocument()
     expect(screen.getByText('8 style families')).toBeInTheDocument()
-    expect(screen.getAllByRole('button', { name: /Открыть референс/ })).toHaveLength(24)
-    expect(screen.getAllByRole('button', { name: /Скачать описание/ })).toHaveLength(24)
-    expect(screen.getByText('Awwwards · 9 материалов')).toBeInTheDocument()
+    expect(screen.getAllByRole('button', { name: /Открыть референс/ })).toHaveLength(30)
+    expect(screen.getAllByRole('button', { name: /Скачать описание/ })).toHaveLength(30)
+    expect(screen.getAllByText('Awwwards · 9 материалов')).toHaveLength(2)
     expect(screen.getByText('Awwwards · 12 материалов')).toBeInTheDocument()
-    expect(screen.getByText('Awwwards · 13 материалов')).toBeInTheDocument()
+    expect(screen.getAllByText('Awwwards · 13 материалов')).toHaveLength(2)
     expect(screen.getByText('Awwwards · 19 материалов')).toBeInTheDocument()
+    expect(screen.getByText('Awwwards · 17 материалов')).toBeInTheDocument()
+    expect(screen.getByText('Awwwards · 21 материалов')).toBeInTheDocument()
+    expect(screen.getByText('Awwwards · 8 материалов')).toBeInTheDocument()
+    expect(screen.getByText('Awwwards · 16 материалов')).toBeInTheDocument()
   })
 
   test('builds a complete Markdown export for a reference', () => {
@@ -140,13 +144,90 @@ describe('Visual Reference Index', () => {
     expect(document.querySelectorAll('.source-gallery__item video')).toHaveLength(0)
   })
 
+  test.each([
+    {
+      id: 'ref-025',
+      title: 'Kononenko Architectural Bureau',
+      sourceUrl: 'https://www.awwwards.com/sites/kononenko-architectural-bureau',
+      asset: '/materials/ref-025/hover-animation.mp4',
+      materialCount: 17,
+    },
+    {
+      id: 'ref-026',
+      title: 'Eladio Dieste',
+      sourceUrl: 'https://www.awwwards.com/sites/eladio-dieste',
+      asset: '/materials/ref-026/gallery-parallax.mp4',
+      materialCount: 13,
+    },
+    {
+      id: 'ref-027',
+      title: 'NORMAL IS BORING',
+      sourceUrl: 'https://www.awwwards.com/sites/normal-is-boring',
+      asset: '/materials/ref-027/gallery-projects.jpg',
+      materialCount: 9,
+    },
+    {
+      id: 'ref-028',
+      title: 'ERA Residence',
+      sourceUrl: 'https://www.awwwards.com/sites/era-residence',
+      asset: '/materials/ref-028/day-night-theme.mp4',
+      materialCount: 21,
+    },
+    {
+      id: 'ref-029',
+      title: 'THE RED',
+      sourceUrl: 'https://www.awwwards.com/sites/the-red',
+      asset: '/materials/ref-029/webgl-interaction.mp4',
+      materialCount: 8,
+    },
+    {
+      id: 'ref-030',
+      title: 'Mara',
+      sourceUrl: 'https://www.awwwards.com/sites/mara',
+      asset: '/materials/ref-030/product-page-02.jpg',
+      materialCount: 16,
+    },
+  ])('indexes the complete source set for $title', ({ id, title, sourceUrl, asset, materialCount }) => {
+    const reference = referencesData.references.find((item) => item.id === id)
+    const markdown = buildReferenceMarkdown(reference)
+    const indexedMaterialCount =
+      1 +
+      reference.source_materials.elements.reduce(
+        (total, element) => total + (element.images?.length ?? 0) + (element.videos?.length ?? 0),
+        0,
+      )
+
+    expect(reference.family_id).toBe('architectural-editorial')
+    expect(reference.source_materials.source_url).toBe(sourceUrl)
+    expect(indexedMaterialCount).toBe(materialCount)
+    expect(markdown).toContain(`# ${title}`)
+    expect(markdown).toContain(sourceUrl)
+    expect(markdown).toContain(asset)
+    expect(markdown).not.toContain('null/10')
+  })
+
+  test('opens a new architecture reference with its local source gallery', async () => {
+    const user = userEvent.setup()
+    render(<App />)
+
+    await user.click(screen.getByRole('button', { name: 'Открыть референс ERA Residence' }))
+
+    expect(screen.getByRole('link', { name: 'Страница проекта' })).toHaveAttribute(
+      'href',
+      'https://www.awwwards.com/sites/era-residence',
+    )
+    expect(document.querySelector('.modal__family')).toHaveTextContent('Architectural Editorial')
+    expect(document.querySelectorAll('.source-gallery__item')).toHaveLength(21)
+    expect(document.querySelectorAll('.source-gallery__item video')).toHaveLength(8)
+  })
+
   test('filters by family without a reload and syncs the URL', async () => {
     const user = userEvent.setup()
     render(<App />)
 
     await user.click(screen.getByRole('button', { name: /Architectural Editorial/ }))
 
-    expect(screen.getAllByRole('button', { name: /Открыть референс/ })).toHaveLength(4)
+    expect(screen.getAllByRole('button', { name: /Открыть референс/ })).toHaveLength(10)
     await waitFor(() => {
       expect(window.location.search).toContain('family=architectural-editorial')
     })
