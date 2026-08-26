@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.vite/
+coverage/
+public/screens/
+
+.env
+.env.*
+!.env.example
+*.local
+npm-debug.log*
+
+.DS_Store
+Thumbs.db
+
+# Canonical source images live in screens/. These root files are preserved locally
+# but excluded from Git because they are byte-for-byte duplicates.
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.avif

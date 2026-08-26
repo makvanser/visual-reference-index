@@ -1,0 +1,1684 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-25",
+  "source_directory": "screens",
+  "references": [
+    {
+      "id": "ref-001",
+      "image": "/screens/0542adea6244c0112d07052b29fe5a4c.jpg",
+      "source_file": "0542adea6244c0112d07052b29fe5a4c.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Не определено",
+      "site_name_confidence": "unknown",
+      "site_type": "креативная или digital-студия",
+      "family_id": "studio-minimal",
+      "family": "Studio Minimal",
+      "description": "Светлый лендинг студии с карточным hero, крупными тезисами и визуалами деревянных объектов. Композиция сочетает журненную подачу и мягкую продуктовую модульность.",
+      "why_it_works": "Крупные тезисы, спокойная нейтральная палитра и разные масштабы карточек создают ясный ритм без визуального шума.",
+      "tags": ["soft monochrome", "rounded modules", "oversized sans", "material imagery", "large whitespace"],
+      "colors": [
+        {"hex": "#F4F4F4", "role": "page background", "confidence": "high"},
+        {"hex": "#FFFFFF", "role": "content surfaces", "confidence": "high"},
+        {"hex": "#302F2F", "role": "text and dark media", "confidence": "high"},
+        {"hex": "#9C948A", "role": "warm material neutral", "confidence": "medium"},
+        {"hex": "#D7D7D6", "role": "dividers and muted text", "confidence": "medium"}
+      ],
+      "background": {"description": "почти белый холодный фон с белыми секциями", "colors": ["#F4F4F4", "#FFFFFF"]},
+      "accent_colors": ["#9C948A"],
+      "typography": {
+        "style": "нейтральный современный grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "примерно 40-64 px, плотный межстрочный интервал; секционные тезисы 28-40 px",
+        "body": "малый 12-16 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "асимметричный hero с текстом слева и двумя высокими карточками справа",
+        "page_structure": ["hero-карусель", "манифест", "медиа и отзыв", "метрики", "about-кейс"],
+        "columns": "3 в hero, затем 2 и 1",
+        "image_treatment": "крупные вертикальные карточки и широкое видео без обрезки ключевого объекта",
+        "proportions": "вертикальные 3:4 и широкие 16:9",
+        "whitespace": "щедрый между секциями, более плотный внутри карточек"
+      },
+      "grid": {"type": "модульная асимметричная", "columns": 12, "alignment": "общие левые края и переменные span"},
+      "spacing": {"character": "воздушный", "section_gap": "крупный", "internal_padding": "средний, около 24-40 px"},
+      "ui_elements": {
+        "navigation": "минимальная, виден нумерованный переключатель с линией",
+        "buttons": "компактные pill-кнопки с круглой иконкой",
+        "borders": "тонкие или отсутствуют",
+        "radii": "крупные, примерно 20-32 px",
+        "controls": "стрелки карусели и круглая play-кнопка"
+      },
+      "textures": ["гладкие поверхности", "фактура дерева в изображениях"],
+      "graphic_elements": ["крупные номера карточек", "тонкая линия прогресса"],
+      "inferred_interactions": ["переключение hero-карточек стрелками", "воспроизведение видео", "hover у pill-кнопок"],
+      "notes": ["Название сайта на скриншоте не читается", "Некоторые тексты выглядят как презентационный концепт, а не финальный сайт"]
+    },
+    {
+      "id": "ref-002",
+      "image": "/screens/0a5f4711ba655b997edddfa55033bda4.jpg",
+      "source_file": "0a5f4711ba655b997edddfa55033bda4.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Minimal™",
+      "site_name_confidence": "visible",
+      "site_type": "дизайн-агентство",
+      "family_id": "studio-minimal",
+      "family": "Studio Minimal",
+      "description": "Длинная светлая страница агентства с огромным текстовым hero, архитектурной фотографией, сервисными раскрытиями и сеткой проектов.",
+      "why_it_works": "Последовательное чередование крупного текста и спокойных изображений делает длинную страницу лёгкой для сканирования.",
+      "tags": ["oversized sans", "editorial spacing", "image grid", "quiet palette", "agency portfolio"],
+      "colors": [
+        {"hex": "#F4F4F4", "role": "page background", "confidence": "high"},
+        {"hex": "#111111", "role": "type and footer", "confidence": "high"},
+        {"hex": "#86BFD0", "role": "sky photography", "confidence": "medium"},
+        {"hex": "#D9D2C8", "role": "warm photographic neutral", "confidence": "medium"},
+        {"hex": "#466B31", "role": "project image accent", "confidence": "medium"}
+      ],
+      "background": {"description": "ровный светло-серый, почти белый", "colors": ["#F4F4F4"]},
+      "accent_colors": ["#86BFD0", "#466B31"],
+      "typography": {
+        "style": "крупный современный grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero около 88-120 px; секционные заголовки 42-56 px",
+        "body": "12-16 px, короткие колонки",
+        "text_density": "низкая или средняя"
+      },
+      "layout": {
+        "composition": "строгая вертикальная лента с асимметричными текстовыми блоками",
+        "page_structure": ["навигация", "типографический hero", "полноширинное изображение", "about", "экспертиза", "проекты", "контактный footer"],
+        "columns": "до 3 в контенте и 2 в проектах",
+        "image_treatment": "широкий архитектурный кадр, три узких lifestyle-кадра, крупные проектные плитки",
+        "proportions": "16:9, 2:3 и квадратные",
+        "whitespace": "очень большой, особенно вокруг заголовков"
+      },
+      "grid": {"type": "редакционная 12-колоночная", "columns": 12, "alignment": "сильные вертикальные направляющие"},
+      "spacing": {"character": "просторный", "section_gap": "очень крупный", "internal_padding": "умеренный"},
+      "ui_elements": {
+        "navigation": "тонкая верхняя строка с логотипом, четырьмя ссылками и CTA",
+        "buttons": "маленькие контурные pills и чёрные CTA",
+        "borders": "тонкие разделители у accordion",
+        "radii": "полные pills у кнопок, изображения без заметных скруглений",
+        "controls": "accordion-секции View more и кнопки проекта"
+      },
+      "textures": ["чистые цифровые поверхности", "естественная фотография"],
+      "graphic_elements": ["типографический масштаб", "тонкие горизонтальные правила"],
+      "inferred_interactions": ["раскрытие сервисов", "hover у проектов", "переход по CTA"],
+      "notes": ["Название Minimal™ читается в header и footer", "Точный шрифт не определяется"]
+    },
+    {
+      "id": "ref-003",
+      "image": "/screens/217ebe78850843de2d4565102117a509.jpg",
+      "source_file": "217ebe78850843de2d4565102117a509.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Delphi",
+      "site_name_confidence": "visible",
+      "site_type": "AI или персональный digital twin продукт",
+      "family_id": "spatial-digital",
+      "family": "Spatial Digital",
+      "description": "Технологический hero помещён внутрь перспективного белого куба с плавающими фрагментами изображений. Контент почти целиком сосредоточен на одном обещании продукта.",
+      "why_it_works": "Перспективная сетка буквально визуализирует идею цифрового пространства, не перегружая ясный центральный CTA.",
+      "tags": ["perspective grid", "spatial interface", "white field", "floating media", "tech minimal"],
+      "colors": [
+        {"hex": "#FFFFFF", "role": "dominant background", "confidence": "high"},
+        {"hex": "#171717", "role": "primary type and CTA", "confidence": "high"},
+        {"hex": "#E9E7E6", "role": "perspective lines", "confidence": "medium"},
+        {"hex": "#FF6B45", "role": "single text accent", "confidence": "medium"},
+        {"hex": "#AE9E95", "role": "muted media tones", "confidence": "medium"}
+      ],
+      "background": {"description": "чистый белый с очень тонкой серой перспективной разметкой", "colors": ["#FFFFFF", "#E9E7E6"]},
+      "accent_colors": ["#FF6B45"],
+      "typography": {
+        "style": "нейтральный технологический grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero около 84-108 px, один уровень; подзаголовок 18-22 px",
+        "body": "малый 14-18 px",
+        "text_density": "очень низкая"
+      },
+      "layout": {
+        "composition": "центрированная ось внутри перспективного куба",
+        "page_structure": ["верхняя навигация", "hero", "CTA", "начало секции How it works"],
+        "columns": "центральная колонка с периферийными медиаплоскостями",
+        "image_treatment": "малые прямоугольные фрагменты размещены на стенах воображаемого пространства",
+        "proportions": "смешанные узкие и широкие фрагменты",
+        "whitespace": "экстремально большой"
+      },
+      "grid": {"type": "перспективная пространственная", "columns": "визуальная центральная ось", "alignment": "симметричная перспектива"},
+      "spacing": {"character": "галерейный", "section_gap": "очень крупный", "internal_padding": "минимальный вокруг текста"},
+      "ui_elements": {
+        "navigation": "центрированная строка ссылок и тёмный pill CTA",
+        "buttons": "компактный тёмный pill и текстовая ссылка",
+        "borders": "тонкая пространственная сетка",
+        "radii": "pill-кнопки, остальная геометрия острая",
+        "controls": "CTA и ссылка на примеры"
+      },
+      "textures": ["чистое белое поле"],
+      "graphic_elements": ["перспективный куб", "плавающие медиаплоскости"],
+      "inferred_interactions": ["возможная анимация движения медиаплоскостей", "глубинный параллакс можно предположить по композиции"],
+      "notes": ["Анимация не подтверждается статичным скриншотом", "Название Delphi видно в навигации"]
+    },
+    {
+      "id": "ref-004",
+      "image": "/screens/250f85c8bae8d461ab5daa4e4f5e2cad.jpg",
+      "source_file": "250f85c8bae8d461ab5daa4e4f5e2cad.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "baroque",
+      "site_name_confidence": "visible",
+      "site_type": "архитектурное портфолио",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Три варианта архитектурного hero со строгой навигацией, крупным названием проекта и фотографией здания, частично выходящей за рамки белого интерфейсного поля.",
+      "why_it_works": "Один и тот же ясный каркас выдерживает разные проекты, а крупная архитектурная форма становится частью композиционной сетки.",
+      "tags": ["architecture", "hero slider", "editorial grid", "image breakout", "minimal navigation"],
+      "colors": [
+        {"hex": "#FFFFFF", "role": "interface field", "confidence": "high"},
+        {"hex": "#111111", "role": "type", "confidence": "high"},
+        {"hex": "#E9EBED", "role": "sky and background", "confidence": "medium"},
+        {"hex": "#69564B", "role": "architecture and terrain", "confidence": "medium"},
+        {"hex": "#A94A28", "role": "navigation accent", "confidence": "medium"}
+      ],
+      "background": {"description": "белая галерейная страница с фотографическими фонами внутри экранов", "colors": ["#FFFFFF", "#E9EBED"]},
+      "accent_colors": ["#A94A28"],
+      "typography": {
+        "style": "плотный геометрический grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "около 48-64 px, короткие двухстрочные названия",
+        "body": "микротекст 10-13 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "текстовый блок слева, счётчик справа, архитектура по нижней половине",
+        "page_structure": ["логотип и навигация", "метаданные проекта", "название", "ссылка", "слайд проекта"],
+        "columns": "4 функциональные зоны на 12-колоночной сетке",
+        "image_treatment": "крупный объект или фон интегрирован с интерфейсным полем",
+        "proportions": "широкий hero примерно 16:9",
+        "whitespace": "большой в верхней части hero"
+      },
+      "grid": {"type": "строгая редакционная", "columns": 12, "alignment": "левый текстовый модуль и правый индекс"},
+      "spacing": {"character": "широкий по краям", "section_gap": "между примерами очень крупный", "internal_padding": "около 32-48 px"},
+      "ui_elements": {
+        "navigation": "две группы тонких ссылок и hamburger справа",
+        "buttons": "текстовая ссылка See Project со стрелкой",
+        "borders": "почти отсутствуют",
+        "radii": "нет",
+        "controls": "вертикальные точки и индекс слайда"
+      },
+      "textures": ["архитектурная фотография", "природный ландшафт"],
+      "graphic_elements": ["нумерация 01/05", "вертикальные точки прогресса"],
+      "inferred_interactions": ["вертикальный или автоматический hero-slider", "hover у See Project"],
+      "notes": ["Показаны три состояния одной системы", "Название baroque видно в левом верхнем углу"]
+    },
+    {
+      "id": "ref-005",
+      "image": "/screens/2879637171edf5e38c4ce21af672ffc8.jpg",
+      "source_file": "2879637171edf5e38c4ce21af672ffc8.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Туры по Японии",
+      "site_name_confidence": "descriptive-only",
+      "site_type": "туристический лендинг",
+      "family_id": "bold-swiss-systems",
+      "family": "Bold Swiss Systems",
+      "description": "Русскоязычный лендинг тура по Японии с плакатным словом JAPAN, красными крестами, чёрно-белой фотографией и строгими линейными блоками.",
+      "why_it_works": "Красный акцент и огромная типографика мгновенно формируют характер, а сетка удерживает большой объём информации в порядке.",
+      "tags": ["swiss grid", "red accent", "oversized type", "black and white", "travel editorial"],
+      "colors": [
+        {"hex": "#F0F0F0", "role": "page background", "confidence": "high"},
+        {"hex": "#111111", "role": "text and photography", "confidence": "high"},
+        {"hex": "#FF3B30", "role": "display accent", "confidence": "high"},
+        {"hex": "#D4D2D2", "role": "muted image tones", "confidence": "medium"}
+      ],
+      "background": {"description": "светло-серый газетный фон", "colors": ["#F0F0F0"]},
+      "accent_colors": ["#FF3B30"],
+      "typography": {
+        "style": "широкий геометрический grotesk",
+        "font_character": ["grotesk", "display", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "JAPAN около 140-190 px; секционные заголовки 28-36 px",
+        "body": "14-18 px в коротких колонках",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "плакатная, с огромным словом поверх изображений и сетки",
+        "page_structure": ["служебная навигация", "манифест", "hero", "маршрут", "пакет", "форма", "footer"],
+        "columns": "3 в описании, 2 в маршруте и форме",
+        "image_treatment": "чёрно-белые прямоугольники одинаковой высоты",
+        "proportions": "примерно 4:3 и широкие панорамы",
+        "whitespace": "средний, организован рамками"
+      },
+      "grid": {"type": "жёсткая швейцарская", "columns": 12, "alignment": "разделение тонкими линиями"},
+      "spacing": {"character": "ритмичный и модульный", "section_gap": "крупный", "internal_padding": "24-40 px"},
+      "ui_elements": {
+        "navigation": "три текстовых пункта в верхней полосе",
+        "buttons": "прямоугольные контурные",
+        "borders": "тонкие чёрные линии по всей структуре",
+        "radii": "нет",
+        "controls": "форма с прямоугольными полями"
+      },
+      "textures": ["чёрно-белая уличная фотография", "слегка газетная тональность"],
+      "graphic_elements": ["красные кресты", "рисованные красные стрелки", "абстрактная красная линия"],
+      "inferred_interactions": ["якорная навигация", "отправка формы", "CTA бронирования"],
+      "notes": ["Конкретный бренд не виден", "В footer читается @japan_tours"]
+    },
+    {
+      "id": "ref-006",
+      "image": "/screens/380b059e0ae966ca5df0be4cbb42b862.jpg",
+      "source_file": "380b059e0ae966ca5df0be4cbb42b862.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Opal",
+      "site_name_confidence": "visible",
+      "site_type": "hardware product",
+      "family_id": "product-precision",
+      "family": "Product Precision",
+      "description": "Монохромная продуктовая страница камеры Tadpole с огромным рендером, трёхколоночным каталогом и типографическим footer-словом Opal.",
+      "why_it_works": "Чистое поле и уверенный масштаб позволяют форме продукта стать главным визуальным содержанием, а навигация остаётся почти служебной.",
+      "tags": ["product render", "monochrome", "industrial minimal", "three-column grid", "oversized wordmark"],
+      "colors": [
+        {"hex": "#E2E2E2", "role": "hero background", "confidence": "high"},
+        {"hex": "#FFFFFF", "role": "product grid", "confidence": "high"},
+        {"hex": "#111111", "role": "type and product", "confidence": "high"},
+        {"hex": "#6D8CFF", "role": "availability link", "confidence": "medium"},
+        {"hex": "#FFB400", "role": "Composer icon accent", "confidence": "medium"}
+      ],
+      "background": {"description": "холодный светло-серый hero и белые продуктовые секции", "colors": ["#E2E2E2", "#FFFFFF"]},
+      "accent_colors": ["#6D8CFF", "#FFB400"],
+      "typography": {
+        "style": "строгий индустриальный grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero 44-60 px; финальный wordmark занимает почти весь экран",
+        "body": "12-18 px, серый вторичный текст",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "текст слева и вертикальный профиль продукта по центру",
+        "page_structure": ["расширенная навигация", "hero", "три продукта", "oversized footer"],
+        "columns": "4 в header, 3 в продуктовом блоке",
+        "image_treatment": "изолированные рендеры на нейтральном фоне",
+        "proportions": "высокий hero и квадратные продуктовые ячейки",
+        "whitespace": "очень большой вокруг продукта"
+      },
+      "grid": {"type": "рациональная продуктовая", "columns": 3, "alignment": "строгие равные ячейки"},
+      "spacing": {"character": "просторный", "section_gap": "минимален, секции стыкуются", "internal_padding": "32-64 px"},
+      "ui_elements": {
+        "navigation": "mega-nav сразу раскрыт в верхней части",
+        "buttons": "круглые или pill-кнопки со стрелкой",
+        "borders": "тонкие разделители между продуктами",
+        "radii": "pill у полей и кнопок",
+        "controls": "newsletter input, back-to-top"
+      },
+      "textures": ["матовый металл", "плетёный кабель"],
+      "graphic_elements": ["огромный wordmark", "точечный узор камеры"],
+      "inferred_interactions": ["hover у продуктовых плиток", "newsletter submission", "back-to-top"],
+      "notes": ["Название Opal и продукт Tadpole читаются явно", "Точные параметры анимации по скриншоту неизвестны"]
+    },
+    {
+      "id": "ref-007",
+      "image": "/screens/41fd5ea5febea758914f8fe7071b9de7.jpg",
+      "source_file": "41fd5ea5febea758914f8fe7071b9de7.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Velora",
+      "site_name_confidence": "visible",
+      "site_type": "интерьерная студия",
+      "family_id": "refined-interiors",
+      "family": "Refined Interiors",
+      "description": "Тёмный сайт интерьерной студии с монохромным hero, огромным названием поверх фотографии и единичным глубоким синим объектом как акцентом.",
+      "why_it_works": "Сдержанный UI не спорит с интерьером, а синий стол собирает монохромный кадр и задаёт узнаваемую точку фокуса.",
+      "tags": ["dark interior", "oversized wordmark", "blue accent", "quiet luxury", "monochrome photography"],
+      "colors": [
+        {"hex": "#25262A", "role": "dark sections", "confidence": "high"},
+        {"hex": "#E5E5E5", "role": "light section and type", "confidence": "high"},
+        {"hex": "#1B1C1F", "role": "deep background", "confidence": "high"},
+        {"hex": "#17344F", "role": "blue furniture accent", "confidence": "medium"},
+        {"hex": "#636364", "role": "photographic gray", "confidence": "medium"}
+      ],
+      "background": {"description": "глубокий графит с последующим светлым сервисным блоком", "colors": ["#25262A", "#E5E5E5"]},
+      "accent_colors": ["#17344F"],
+      "typography": {
+        "style": "чистый современный grotesk с курсивным выделением",
+        "font_character": ["grotesk", "sans-serif", "italic accent"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero wordmark около 150-220 px; секции 28-42 px",
+        "body": "12-16 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "полноширинный hero с текстовыми аннотациями, затем тёмная сетка метрик",
+        "page_structure": ["hero", "about", "метрики", "services"],
+        "columns": "hero свободный; метрики 4; контент 2",
+        "image_treatment": "крупная интерьерная фотография с текстом поверх",
+        "proportions": "широкий hero и вертикальные сервисные изображения",
+        "whitespace": "широкий, но компактнее в тёмных блоках"
+      },
+      "grid": {"type": "модульная премиальная", "columns": 12, "alignment": "текст привязан к краям и направляющим фотографии"},
+      "spacing": {"character": "спокойный", "section_gap": "крупный", "internal_padding": "30-48 px"},
+      "ui_elements": {
+        "navigation": "вертикальное меню поверх hero",
+        "buttons": "светлая прямоугольная CTA и контурные service-кнопки",
+        "borders": "тонкие разделители метрик",
+        "radii": "почти отсутствуют",
+        "controls": "текстовые аннотации и service links"
+      },
+      "textures": ["камень", "штукатурка", "мягкая ткань"],
+      "graphic_elements": ["огромный wordmark", "небольшие маркеры-аннотации"],
+      "inferred_interactions": ["hover у аннотаций", "переходы по service-кнопкам"],
+      "notes": ["Название Velora видно в hero", "Проценты и сроки выглядят как часть концепт-макета"]
+    },
+    {
+      "id": "ref-008",
+      "image": "/screens/4a8ba76a31c72440ca88fdf3fd9d0bf6.jpg",
+      "source_file": "4a8ba76a31c72440ca88fdf3fd9d0bf6.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "FROG STUDIO",
+      "site_name_confidence": "visible-small",
+      "site_type": "креативная студия или портфолио",
+      "family_id": "graphic-brutalism",
+      "family": "Graphic Brutalism",
+      "description": "Экспериментальная чёрно-белая страница с тонким display-serif манифестом, маленьким сюрреалистичным изображением и длинными градиентными переходами между тёмным и белым полями.",
+      "why_it_works": "Экстремальный контраст масштаба и пустоты превращает простой текст об агентстве в атмосферный визуальный рассказ.",
+      "tags": ["dark editorial", "display serif", "surreal image", "gradient field", "extreme whitespace"],
+      "colors": [
+        {"hex": "#080808", "role": "dominant dark field", "confidence": "high"},
+        {"hex": "#FFFFFF", "role": "light field and display type", "confidence": "high"},
+        {"hex": "#333333", "role": "transition and frame", "confidence": "medium"},
+        {"hex": "#BFBFBF", "role": "mid gradient", "confidence": "medium"}
+      ],
+      "background": {"description": "чёрный с длинным мягким переходом в белый и обратно", "colors": ["#080808", "#FFFFFF", "#BFBFBF"]},
+      "accent_colors": [],
+      "typography": {
+        "style": "контраст display-serif и нейтрального grotesk",
+        "font_character": ["serif", "grotesk", "display"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "манифест 46-72 px; секционные заголовки 36-52 px",
+        "body": "очень малый 10-13 px",
+        "text_density": "очень низкая"
+      },
+      "layout": {
+        "composition": "длинная вертикальная сцена с контентом, плавающим в пустоте",
+        "page_structure": ["идея", "result-изображение", "три принципа"],
+        "columns": "свободная асимметричная композиция",
+        "image_treatment": "один небольшой сюрреалистичный квадрат и силуэтная сцена",
+        "proportions": "квадрат и широкая композиция",
+        "whitespace": "экстремальный"
+      },
+      "grid": {"type": "свободная редакционная", "columns": 12, "alignment": "намеренно разнесённые островки контента"},
+      "spacing": {"character": "театральный", "section_gap": "огромный", "internal_padding": "минимальный"},
+      "ui_elements": {
+        "navigation": "на видимом фрагменте не определяется",
+        "buttons": "не видны",
+        "borders": "тонкая рамка вокруг всей страницы",
+        "radii": "нет",
+        "controls": "не видны"
+      },
+      "textures": ["мягкий монохромный градиент", "туманная фотография"],
+      "graphic_elements": ["силуэты людей", "нумерация принципов"],
+      "inferred_interactions": ["можно предположить медленные scroll-reveal переходы, но это не подтверждено"],
+      "notes": ["FROG STUDIO читается только как маленькая подпись", "Большая часть интерфейсных элементов вне кадра или отсутствует"]
+    },
+    {
+      "id": "ref-009",
+      "image": "/screens/4c51e77e3143edb5e96db9745a3d21e1.jpg",
+      "source_file": "4c51e77e3143edb5e96db9745a3d21e1.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Не определено",
+      "site_name_confidence": "unknown",
+      "site_type": "графический постер или editorial-композиция",
+      "family_id": "graphic-brutalism",
+      "family": "Graphic Brutalism",
+      "description": "Монохромный типографический постер с фигурой человека, огромными пересекающимися буквами и микротекстом, ориентированным в нескольких направлениях.",
+      "why_it_works": "Сильный силуэт и пересечение масштаба, направления и слоя создают динамику даже без цвета.",
+      "tags": ["typographic poster", "monochrome", "vertical type", "photo collage", "scale contrast"],
+      "colors": [
+        {"hex": "#F0F0F0", "role": "paper background", "confidence": "high"},
+        {"hex": "#1B1B1B", "role": "display type", "confidence": "high"},
+        {"hex": "#C4C5C7", "role": "photographic gray", "confidence": "high"},
+        {"hex": "#868687", "role": "midtones", "confidence": "medium"}
+      ],
+      "background": {"description": "светло-серое зернистое поле", "colors": ["#F0F0F0", "#C4C5C7"]},
+      "accent_colors": [],
+      "typography": {
+        "style": "смешение сверхжирного display-grotesk, serif и monospace",
+        "font_character": ["display", "grotesk", "serif", "monospace"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "буквы занимают около половины высоты композиции",
+        "body": "микротекст 9-12 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "центральная вертикаль, которую пересекает фотографическая фигура",
+        "page_structure": ["постерная композиция без определяемых веб-секций"],
+        "columns": "не применимо; свободная плакатная ось",
+        "image_treatment": "чёрно-белый вырезанный силуэт с эффектом слоёв",
+        "proportions": "вертикальный постер 3:4",
+        "whitespace": "средний, сосредоточен по краям"
+      },
+      "grid": {"type": "плакатная осевая", "columns": "не определяется", "alignment": "вертикальная типографическая ось"},
+      "spacing": {"character": "напряжённый", "section_gap": "не применимо", "internal_padding": "широкие внешние поля"},
+      "ui_elements": {
+        "navigation": "не видна",
+        "buttons": "не видны",
+        "borders": "одна тонкая вертикальная линия",
+        "radii": "нет",
+        "controls": "не видны"
+      },
+      "textures": ["бумажное зерно", "фотографический шум"],
+      "graphic_elements": ["огромные буквы", "вертикальный текст", "фотоколлаж"],
+      "inferred_interactions": [],
+      "notes": ["Скриншот не содержит достаточных признаков веб-интерфейса", "Название источника неизвестно"]
+    },
+    {
+      "id": "ref-010",
+      "image": "/screens/4dc24318085894a612c6d853d3eef4ab.jpg",
+      "source_file": "4dc24318085894a612c6d853d3eef4ab.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Luxora",
+      "site_name_confidence": "visible-in-copy",
+      "site_type": "интерьерная студия",
+      "family_id": "refined-interiors",
+      "family": "Refined Interiors",
+      "description": "Тёплый сайт интерьерной студии с атмосферным hero кресла, крупным центрированным обещанием и спокойной editorial-секцией About us.",
+      "why_it_works": "Единая тёплая фотопалитра и ясная разница между крупным hero и тихим текстовым блоком создают премиальное ощущение.",
+      "tags": ["warm interior", "quiet luxury", "centered hero", "editorial about", "natural palette"],
+      "colors": [
+        {"hex": "#FAF9F5", "role": "light content background", "confidence": "high"},
+        {"hex": "#1C110A", "role": "deep brown and type", "confidence": "high"},
+        {"hex": "#63503B", "role": "wood and curtain", "confidence": "high"},
+        {"hex": "#B6AB9B", "role": "page surround", "confidence": "high"},
+        {"hex": "#D7CBBB", "role": "light upholstery", "confidence": "medium"}
+      ],
+      "background": {"description": "тёплый taupe вокруг кремовой страницы", "colors": ["#B6AB9B", "#FAF9F5"]},
+      "accent_colors": ["#63503B"],
+      "typography": {
+        "style": "мягкий современный grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero 54-72 px; about 42-56 px; номер секции 48-60 px",
+        "body": "11-15 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "центрированный hero, затем асимметричный трёхчастный about",
+        "page_structure": ["navigation", "hero", "метрики", "about", "image grid"],
+        "columns": "3 в метриках, затем 12-колоночная редакционная разбивка",
+        "image_treatment": "натуральные интерьерные фото с мягким светом",
+        "proportions": "широкий hero и вертикальные 3:4 кадры",
+        "whitespace": "очень большой на светлой секции"
+      },
+      "grid": {"type": "редакционная", "columns": 12, "alignment": "номер слева, заголовок по центру, пояснение справа"},
+      "spacing": {"character": "просторный", "section_gap": "крупный", "internal_padding": "32-56 px"},
+      "ui_elements": {
+        "navigation": "компактный header поверх фото",
+        "buttons": "белые прямоугольные CTA с небольшим радиусом",
+        "borders": "почти отсутствуют",
+        "radii": "около 6-8 px у кнопок",
+        "controls": "две CTA: покупка шаблона и консультация"
+      },
+      "textures": ["дерево", "ткань", "мягкие тени"],
+      "graphic_elements": ["крупный номер секции", "тонкие колоночные линии метрик"],
+      "inferred_interactions": ["hover у CTA", "навигация к секциям"],
+      "notes": ["Luxora читается в абзаце About us", "Логотип в header сам по себе не расшифровывается"]
+    },
+    {
+      "id": "ref-011",
+      "image": "/screens/608071b7071e4d4f3bd85dd2456af289.jpg",
+      "source_file": "608071b7071e4d4f3bd85dd2456af289.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Train with Gregg",
+      "site_name_confidence": "visible",
+      "site_type": "персональный тренер или fitness-портфолио",
+      "family_id": "graphic-brutalism",
+      "family": "Graphic Brutalism",
+      "description": "Чёрно-белый brutalist-сайт тренера с грубыми мазками, плёнкой, сверхсжатым display-шрифтом и огромным финальным wordmark.",
+      "why_it_works": "Физическая фактура и жёсткая типографика напрямую поддерживают энергичный характер персонального тренинга.",
+      "tags": ["fitness brutalism", "condensed display", "grain", "paint texture", "black and white"],
+      "colors": [
+        {"hex": "#161510", "role": "dark sections", "confidence": "high"},
+        {"hex": "#ECE6E6", "role": "paper field", "confidence": "high"},
+        {"hex": "#D1CDCA", "role": "grain midtone", "confidence": "medium"},
+        {"hex": "#292824", "role": "secondary dark", "confidence": "medium"}
+      ],
+      "background": {"description": "чередование угольно-чёрных и грязно-белых бумажных полей", "colors": ["#161510", "#ECE6E6"]},
+      "accent_colors": [],
+      "typography": {
+        "style": "сверхсжатый тяжёлый display sans с нейтральным grotesk",
+        "font_character": ["condensed", "display", "grotesk"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "48-96 px, uppercase; финальный заголовок почти на всю ширину",
+        "body": "10-14 px uppercase",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "плакатные полноширинные поля с крупным центром и разнесённым микротекстом",
+        "page_structure": ["testimonials", "личное обращение", "contact", "footer hero"],
+        "columns": "свободные 3 колонки в контактном блоке",
+        "image_treatment": "плёночные чёрно-белые кадры в горизонтальной ленте",
+        "proportions": "малые 3:2 кадры и полноширинные текстурные поля",
+        "whitespace": "контрастно большой на светлом блоке"
+      },
+      "grid": {"type": "brutalist poster grid", "columns": 12, "alignment": "нарочито смещённые текстовые островки"},
+      "spacing": {"character": "резкий", "section_gap": "крупный", "internal_padding": "неравномерный"},
+      "ui_elements": {
+        "navigation": "MENU + и LET'S TRAIN в углу",
+        "buttons": "текстовый CONTACT ME с крупной стрелкой",
+        "borders": "не используются как UI",
+        "radii": "нет",
+        "controls": "горизонтальная лента отзывов"
+      },
+      "textures": ["бумажное зерно", "чёрная краска", "плёночный шум"],
+      "graphic_elements": ["мазки", "грубые края секций", "крупная стрелка"],
+      "inferred_interactions": ["горизонтальная прокрутка отзывов", "раскрытие меню", "hover у contact link"],
+      "notes": ["Gregg и Train with Gregg читаются в контенте", "Точные шрифты неизвестны"]
+    },
+    {
+      "id": "ref-012",
+      "image": "/screens/7595b21f05b7c9b9412d92230c184766.jpg",
+      "source_file": "7595b21f05b7c9b9412d92230c184766.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "AirPods Max",
+      "site_name_confidence": "visible",
+      "site_type": "product concept, mobile layouts",
+      "family_id": "product-precision",
+      "family": "Product Precision",
+      "description": "Набор мобильных продуктовых экранов AirPods Max: полноэкранный объект, модульные детали, техническая таблица, тёмная storytelling-секция и сценарий подключения.",
+      "why_it_works": "Каждый экран решает одну задачу, а единая типографика и нейтральная палитра удерживают разнообразные модули в одной системе.",
+      "tags": ["mobile product", "modular cards", "industrial render", "technical specs", "monochrome"],
+      "colors": [
+        {"hex": "#EAEAEA", "role": "canvas", "confidence": "high"},
+        {"hex": "#FEFEFE", "role": "cards", "confidence": "high"},
+        {"hex": "#111111", "role": "text and dark screen", "confidence": "high"},
+        {"hex": "#696A6A", "role": "product metal", "confidence": "high"},
+        {"hex": "#CDD4C6", "role": "small action accents", "confidence": "medium"}
+      ],
+      "background": {"description": "светло-серый presentation canvas с белыми и чёрными мобильными экранами", "colors": ["#EAEAEA", "#FEFEFE", "#111111"]},
+      "accent_colors": ["#CDD4C6"],
+      "typography": {
+        "style": "нейтральный product grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён; напоминает системную product-типографику, но точное название не подтверждается",
+        "headings": "32-52 px на мобильном; числовой display около 120 px",
+        "body": "12-17 px",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "masonry-презентация из нескольких мобильных экранов",
+        "page_structure": ["overview", "design details", "audio story", "case and battery", "specs", "setup"],
+        "columns": "3 презентационные колонки",
+        "image_treatment": "изолированные product renders и lifestyle-photo",
+        "proportions": "узкие мобильные экраны 9:19 и квадратные детали",
+        "whitespace": "средний между экранами, большой внутри карточек"
+      },
+      "grid": {"type": "модульная product masonry", "columns": 3, "alignment": "разная высота экранов по общей вертикальной сетке"},
+      "spacing": {"character": "системный", "section_gap": "средний", "internal_padding": "20-32 px"},
+      "ui_elements": {
+        "navigation": "минимальная внутри первого мобильного экрана",
+        "buttons": "малые квадратные пронумерованные controls и системная кнопка Connect",
+        "borders": "тонкие разделители в specs",
+        "radii": "крупные скругления мобильных экранов, около 20-28 px",
+        "controls": "пронумерованные переключатели и progress markers"
+      },
+      "textures": ["анодированный металл", "сетчатая ткань", "глянцевый экран"],
+      "graphic_elements": ["огромная цифра 20", "макро-фрагменты продукта"],
+      "inferred_interactions": ["вертикальный scroll внутри экранов", "переключение аудио-шагов", "сценарий one-tap setup"],
+      "notes": ["Это выглядит как независимый концепт, а не подтверждённая официальная страница Apple", "AirPods Max явно указан в интерфейсе"]
+    },
+    {
+      "id": "ref-013",
+      "image": "/screens/819ea5d1ac0792edb0e132e3bbc5baf4.jpg",
+      "source_file": "819ea5d1ac0792edb0e132e3bbc5baf4.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "lab.",
+      "site_name_confidence": "visible-wordmark",
+      "site_type": "fashion или experimental product portfolio",
+      "family_id": "bold-swiss-systems",
+      "family": "Bold Swiss Systems",
+      "description": "Адаптивный fashion-концепт с крупным wordmark lab., чёрно-белыми вырезанными фигурами и насыщенным красно-оранжевым прямоугольником.",
+      "why_it_works": "Строгая монохромная база делает единственный яркий цвет и силуэт продукта максимально заметными на всех размерах экрана.",
+      "tags": ["fashion system", "red orange accent", "cutout photography", "oversized wordmark", "responsive showcase"],
+      "colors": [
+        {"hex": "#F9F9F9", "role": "background", "confidence": "high"},
+        {"hex": "#111111", "role": "type and cutout", "confidence": "high"},
+        {"hex": "#FF4B2E", "role": "primary accent", "confidence": "high"},
+        {"hex": "#74352A", "role": "garment shadow", "confidence": "medium"},
+        {"hex": "#D0CCCB", "role": "soft neutral", "confidence": "medium"}
+      ],
+      "background": {"description": "чистый белый presentation canvas и светло-серые device frames", "colors": ["#F9F9F9", "#F1F1F1"]},
+      "accent_colors": ["#FF4B2E"],
+      "typography": {
+        "style": "геометрический grotesk с очень крупным wordmark",
+        "font_character": ["grotesk", "display", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "wordmark 72-120 px на desktop, 42-64 px на mobile",
+        "body": "микротекст 9-12 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "асимметричная плоскость, где продукт пересекает цветовой блок",
+        "page_structure": ["desktop hero", "две mobile-версии", "desktop secondary state"],
+        "columns": "desktop 12, mobile 1",
+        "image_treatment": "вырезанные fashion-объекты без фона",
+        "proportions": "широкий desktop 16:9 и узкие mobile screens",
+        "whitespace": "очень большой"
+      },
+      "grid": {"type": "швейцарская асимметричная", "columns": 12, "alignment": "микротекст по верхней оси, крупные объекты свободно"},
+      "spacing": {"character": "просторный", "section_gap": "не применимо к presentation board", "internal_padding": "24-40 px"},
+      "ui_elements": {
+        "navigation": "минимальные uppercase links и hamburger",
+        "buttons": "квадратные чёрные CTA с красной стрелкой",
+        "borders": "чёрная рамка device mockup",
+        "radii": "только у device frames",
+        "controls": "слайд-индикаторы и scroll-arrow"
+      },
+      "textures": ["гладкие вырезанные изображения", "мягкие фоновые сферы"],
+      "graphic_elements": ["красный прямоугольник", "плавающие белые сферы", "вертикальные подписи"],
+      "inferred_interactions": ["hero-slider", "scroll transition", "adaptive navigation"],
+      "notes": ["lab. читается как wordmark, но полное юридическое название неизвестно", "Показана presentation board с несколькими viewport"]
+    },
+    {
+      "id": "ref-014",
+      "image": "/screens/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.png",
+      "source_file": "Без названия.png",
+      "analysis_status": "reviewed-unclassifiable",
+      "site_name": "Не определено",
+      "site_name_confidence": "unknown",
+      "site_type": "Не определяется",
+      "family_id": "blank-capture",
+      "family": "Blank Capture",
+      "description": "Почти полностью чёрное изображение 300 x 150 px без читаемого интерфейса, текста или различимых объектов.",
+      "why_it_works": "Оценить дизайн невозможно: визуальный контент отсутствует.",
+      "tags": ["blank frame", "no visible UI", "unclassified"],
+      "colors": [
+        {"hex": "#000000", "role": "entire frame", "confidence": "high"}
+      ],
+      "background": {"description": "сплошной чёрный", "colors": ["#000000"]},
+      "accent_colors": [],
+      "typography": {
+        "style": "Не определяется",
+        "font_character": [],
+        "exact_font": "Не определяется",
+        "headings": "Не видны",
+        "body": "Не виден",
+        "text_density": "нет текста"
+      },
+      "layout": {
+        "composition": "Не определяется",
+        "page_structure": [],
+        "columns": "Не определяется",
+        "image_treatment": "Не определяется",
+        "proportions": "2:1",
+        "whitespace": "Не применимо"
+      },
+      "grid": {"type": "Не определяется", "columns": "Не определяется", "alignment": "Не определяется"},
+      "spacing": {"character": "Не определяется", "section_gap": "Не определяется", "internal_padding": "Не определяется"},
+      "ui_elements": {
+        "navigation": "Не видна",
+        "buttons": "Не видны",
+        "borders": "Не видны",
+        "radii": "Не видны",
+        "controls": "Не видны"
+      },
+      "textures": [],
+      "graphic_elements": [],
+      "inferred_interactions": [],
+      "notes": ["Не присваивать стилевые признаки без другого изображения", "Файл сохранён в каталоге как технически неполный референс"]
+    },
+    {
+      "id": "ref-015",
+      "image": "/screens/ab6eca1ebc62b968087f9ab5e81b60b8.jpg",
+      "source_file": "ab6eca1ebc62b968087f9ab5e81b60b8.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Entuitive Engineering",
+      "site_name_confidence": "visible",
+      "site_type": "инженерная и архитектурная consultancy",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Редакционная страница инженерной компании с огромным полупрозрачным wordmark поверх архитектурной фотографии и типографическим входом в секцию Services.",
+      "why_it_works": "Крупный брендовый жест связывает техническую экспертизу с архитектурной выразительностью, а сетка делает сложный текст читаемым.",
+      "tags": ["engineering", "architectural editorial", "oversized wordmark", "split content", "warm concrete"],
+      "colors": [
+        {"hex": "#F4F3F0", "role": "content background", "confidence": "high"},
+        {"hex": "#180E0B", "role": "type and deep shadow", "confidence": "high"},
+        {"hex": "#755F51", "role": "concrete photography", "confidence": "high"},
+        {"hex": "#8D7F76", "role": "secondary material tone", "confidence": "medium"},
+        {"hex": "#C9D9DE", "role": "wordmark tint", "confidence": "medium"}
+      ],
+      "background": {"description": "тёплая архитектурная фотография над белой редакционной плоскостью", "colors": ["#755F51", "#F4F3F0"]},
+      "accent_colors": ["#C9D9DE"],
+      "typography": {
+        "style": "нейтральный grotesk с огромным бренд-словом",
+        "font_character": ["grotesk", "sans-serif", "display"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "wordmark 130-190 px; statement 42-58 px; Services 120-170 px",
+        "body": "12-16 px",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "photo hero, затем statement на всю ширину и split about",
+        "page_structure": ["hero", "about statement", "company copy and director", "project image", "services"],
+        "columns": "hero свободный; about 2 колонки",
+        "image_treatment": "крупная абстрактная архитектура и проектный рендер с миниатюрами",
+        "proportions": "широкий hero и проектное изображение 4:3",
+        "whitespace": "крупный между statement и detail content"
+      },
+      "grid": {"type": "архитектурная редакционная", "columns": 12, "alignment": "statement по полной ширине, детали в двух колонках"},
+      "spacing": {"character": "просторный", "section_gap": "крупный", "internal_padding": "18-32 px"},
+      "ui_elements": {
+        "navigation": "компактный вертикальный index справа поверх hero",
+        "buttons": "строчные ссылки с индексами",
+        "borders": "тонкие линии у профиля директора",
+        "radii": "малые у изображения проекта",
+        "controls": "вертикальные thumbnails проекта"
+      },
+      "textures": ["бетон", "тёплый камень", "стекло"],
+      "graphic_elements": ["полупрозрачный гигантский wordmark", "малые индексные ярлыки"],
+      "inferred_interactions": ["переключение project thumbnails", "якорная навигация", "hover у профиля"],
+      "notes": ["Название Entuitive Engineering читается в hero и тексте", "Точное локальное время показано, но не является главным визуальным приёмом"]
+    },
+    {
+      "id": "ref-016",
+      "image": "/screens/bbf26ac3257473dd37b91f78364f7393.jpg",
+      "source_file": "bbf26ac3257473dd37b91f78364f7393.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Reboot",
+      "site_name_confidence": "visible",
+      "site_type": "creative community или tech platform",
+      "family_id": "spatial-digital",
+      "family": "Spatial Digital",
+      "description": "Светлый hero платформы Reboot с точечной картой мира, центрированным сообщением и логотипами участников вдоль нижней кромки.",
+      "why_it_works": "Точечная карта визуально объясняет идею связи людей, а простая центральная иерархия оставляет понятный один CTA.",
+      "tags": ["community platform", "dot map", "centered hero", "soft monochrome", "single CTA"],
+      "colors": [
+        {"hex": "#FDFDFD", "role": "hero surface", "confidence": "high"},
+        {"hex": "#E3E4E8", "role": "outer background", "confidence": "high"},
+        {"hex": "#111111", "role": "type and map", "confidence": "high"},
+        {"hex": "#D7E9FF", "role": "subtle glow", "confidence": "low"},
+        {"hex": "#F0C5FF", "role": "button shadow accent", "confidence": "low"}
+      ],
+      "background": {"description": "светло-серый canvas с белой мягко скруглённой hero-панелью", "colors": ["#E3E4E8", "#FDFDFD"]},
+      "accent_colors": ["#D7E9FF", "#F0C5FF"],
+      "typography": {
+        "style": "нейтральный product grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "примерно 42-54 px",
+        "body": "14-18 px",
+        "text_density": "очень низкая"
+      },
+      "layout": {
+        "composition": "центрированный message между двумя половинами точечной карты",
+        "page_structure": ["navigation", "hero message", "CTA", "logo strip"],
+        "columns": "центральная колонка",
+        "image_treatment": "графическая карта вместо фотографии",
+        "proportions": "широкий desktop hero",
+        "whitespace": "очень большой"
+      },
+      "grid": {"type": "центральная пространственная", "columns": 12, "alignment": "центр плюс симметричные боковые массы"},
+      "spacing": {"character": "воздушный", "section_gap": "hero занимает почти весь экран", "internal_padding": "32-56 px"},
+      "ui_elements": {
+        "navigation": "центрированный header с текстовыми ссылками и тёмным Sign in",
+        "buttons": "чёрные pills",
+        "borders": "тонкие или отсутствуют",
+        "radii": "крупный радиус hero-панели и pill-кнопок",
+        "controls": "primary CTA Join our World"
+      },
+      "textures": ["чистое цифровое поле"],
+      "graphic_elements": ["полутоновая точечная карта", "логотипы партнёров"],
+      "inferred_interactions": ["возможное движение точечной карты", "hover glow у CTA"],
+      "notes": ["Название Reboot видно в навигации", "Цветной ореол очень слабый, точный оттенок не подтверждается"]
+    },
+    {
+      "id": "ref-017",
+      "image": "/screens/cb1a23f2736a2106b71c300ee349ef2b.jpg",
+      "source_file": "cb1a23f2736a2106b71c300ee349ef2b.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "HAUS STUDIO",
+      "site_name_confidence": "visible",
+      "site_type": "fashion archive или multi-brand retail",
+      "family_id": "bold-swiss-systems",
+      "family": "Bold Swiss Systems",
+      "description": "Чёрно-белая fashion-страница с огромным сжатым названием HAUS STUDIO, центральным портретом и модульными географическими блоками ниже.",
+      "why_it_works": "Огромная display-типографика задаёт бренд ещё до чтения текста, а строгие модули превращают fashion-хаос в систему.",
+      "tags": ["fashion archive", "condensed display", "black and white", "modular grid", "oversized wordmark"],
+      "colors": [
+        {"hex": "#000000", "role": "lower field and display type", "confidence": "high"},
+        {"hex": "#F6F6F6", "role": "upper field", "confidence": "high"},
+        {"hex": "#A09E97", "role": "portrait", "confidence": "medium"},
+        {"hex": "#211D1B", "role": "photographic dark", "confidence": "medium"}
+      ],
+      "background": {"description": "жёсткое чередование белого и чёрного полей", "colors": ["#F6F6F6", "#000000"]},
+      "accent_colors": [],
+      "typography": {
+        "style": "сверхсжатый тяжёлый display sans плюс узкий utility sans",
+        "font_character": ["condensed", "display", "grotesk"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "wordmark около 110-160 px; географические цифры 140-220 px",
+        "body": "10-14 px",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "wordmark образует верхнюю рамку, портрет стоит на центральной оси",
+        "page_structure": ["brand hero", "index", "about", "global locations", "contact image"],
+        "columns": "3 в hero, затем мозаичная модульная сетка",
+        "image_treatment": "портрет с широкоугольной перспективой и крупный кроп лица",
+        "proportions": "квадратный portrait и широкая нижняя фотография",
+        "whitespace": "средний, но напряжённый из-за огромного текста"
+      },
+      "grid": {"type": "жёсткая modular swiss", "columns": 12, "alignment": "текст и числа формируют прямоугольные модули"},
+      "spacing": {"character": "плотный", "section_gap": "малый", "internal_padding": "12-24 px"},
+      "ui_elements": {
+        "navigation": "hamburger в квадрате",
+        "buttons": "текстовая Explore Page ссылка",
+        "borders": "жёсткие границы цветовых полей",
+        "radii": "нет",
+        "controls": "малые menu buttons"
+      },
+      "textures": ["fashion photography", "чистые плоские заливки"],
+      "graphic_elements": ["огромные буквы и цифры", "географические модули"],
+      "inferred_interactions": ["раскрытие меню", "переход по explore", "возможный scroll между локациями"],
+      "notes": ["HAUS STUDIO читается однозначно", "Контент описывает curated digital archive"]
+    },
+    {
+      "id": "ref-018",
+      "image": "/screens/d7c090615a23c6801eba32fa30cf25fd.jpg",
+      "source_file": "d7c090615a23c6801eba32fa30cf25fd.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Hotle",
+      "site_name_confidence": "visible-wordmark-uncertain",
+      "site_type": "архитектурный hospitality product",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Архитектурный hospitality-лендинг с огромным словом Hotle за фотографией дома, мягким небесно-серым фоном и крупной editorial-фразой с курсивом.",
+      "why_it_works": "Перекрытие слова архитектурой создаёт глубину, а контраст рационального grotesk и выразительного курсива добавляет характер без лишнего декора.",
+      "tags": ["hospitality", "architecture", "type behind image", "editorial italic", "soft atmosphere"],
+      "colors": [
+        {"hex": "#F8F8F8", "role": "content surface", "confidence": "high"},
+        {"hex": "#101413", "role": "type and architecture", "confidence": "high"},
+        {"hex": "#CDD4D6", "role": "sky background", "confidence": "high"},
+        {"hex": "#828785", "role": "landscape midtone", "confidence": "medium"},
+        {"hex": "#D67B22", "role": "warm interior light", "confidence": "medium"}
+      ],
+      "background": {"description": "холодный туманный пейзаж вокруг белого контентного поля", "colors": ["#CDD4D6", "#F8F8F8"]},
+      "accent_colors": ["#D67B22"],
+      "typography": {
+        "style": "широкий grotesk с контрастным editorial italic",
+        "font_character": ["grotesk", "serif italic", "display"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero wordmark около 150-200 px; statement 58-80 px",
+        "body": "11-15 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "изображение здания перекрывает гигантский текст, следующий блок становится чисто типографическим",
+        "page_structure": ["navigation", "hero", "filters", "about statement", "cabin module", "metrics", "comfort section"],
+        "columns": "hero свободный; lower content 3",
+        "image_treatment": "полноширинная архитектурная фотография и вырезанный рендер модульного дома",
+        "proportions": "широкий hero и горизонтальный product cutout",
+        "whitespace": "крупный в типографических блоках"
+      },
+      "grid": {"type": "редакционная архитектурная", "columns": 12, "alignment": "крупный текст по ширине, данные по колонкам"},
+      "spacing": {"character": "воздушный", "section_gap": "крупный", "internal_padding": "20-36 px"},
+      "ui_elements": {
+        "navigation": "малые pills и waitlist CTA",
+        "buttons": "контурные pills",
+        "borders": "тонкие разделители метрик",
+        "radii": "умеренные у pills, изображения в основном прямые",
+        "controls": "category pills и search my area"
+      },
+      "textures": ["туман", "металл", "тёплое дерево"],
+      "graphic_elements": ["гигантский wordmark за фотографией", "крупные метрики"],
+      "inferred_interactions": ["переключение category pills", "waitlist form", "поиск по району"],
+      "notes": ["Wordmark читается как Hotle, но написание может быть частью концепта", "Точный бренд не подтверждён иными данными"]
+    },
+    {
+      "id": "ref-019",
+      "image": "/screens/e04835bee28d77298ddb03f280402ec5.jpg",
+      "source_file": "e04835bee28d77298ddb03f280402ec5.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Selaras",
+      "site_name_confidence": "visible",
+      "site_type": "архитектурная студия",
+      "family_id": "architectural-editorial",
+      "family": "Architectural Editorial",
+      "description": "Архитектурный сайт Selaras с красным зданием в hero, крупным объясняющим текстом, пошаговым процессом и чёрной секцией услуг рядом с проектной фотографией.",
+      "why_it_works": "Красная архитектура даёт запоминаемый вход, а последующая строгая сетка превращает визуальный импульс в убедительную структуру студии.",
+      "tags": ["architecture", "red facade", "editorial grid", "black white blocks", "project system"],
+      "colors": [
+        {"hex": "#F5F5F5", "role": "content background", "confidence": "high"},
+        {"hex": "#110505", "role": "dark sections and type", "confidence": "high"},
+        {"hex": "#BFCCD1", "role": "sky", "confidence": "high"},
+        {"hex": "#B3241D", "role": "hero architecture", "confidence": "medium"},
+        {"hex": "#84817D", "role": "secondary imagery", "confidence": "medium"}
+      ],
+      "background": {"description": "чёрный внешний canvas, белые секции и холодное небо в hero", "colors": ["#110505", "#F5F5F5", "#BFCCD1"]},
+      "accent_colors": ["#B3241D"],
+      "typography": {
+        "style": "нейтральный архитектурный grotesk",
+        "font_character": ["grotesk", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "hero 48-64 px; section titles 38-52 px; statement 28-42 px",
+        "body": "11-16 px",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "photo hero с overlay-card, затем крупный statement и split service section",
+        "page_structure": ["navigation", "hero", "story", "process", "services accordion", "latest works"],
+        "columns": "2 в story, 2 в services, project grid ниже",
+        "image_treatment": "крупные архитектурные кадры с прямыми границами",
+        "proportions": "широкий hero и 1:1 или 4:3 project crops",
+        "whitespace": "крупный вокруг statement, плотнее в services"
+      },
+      "grid": {"type": "строгая редакционная", "columns": 12, "alignment": "контентные колонки и split 50/50"},
+      "spacing": {"character": "структурный", "section_gap": "средний", "internal_padding": "28-48 px"},
+      "ui_elements": {
+        "navigation": "белая полоса с текстовыми ссылками и чёрным Contact",
+        "buttons": "чёрные прямоугольные CTA",
+        "borders": "тонкие разделители steps и projects",
+        "radii": "нет или минимальные",
+        "controls": "service accordion с плюсами и стрелки hero"
+      },
+      "textures": ["штукатурка фасада", "стекло", "бетон"],
+      "graphic_elements": ["floating project label", "нумерованный accordion"],
+      "inferred_interactions": ["hero-slider", "accordion услуг", "hover у project cards"],
+      "notes": ["Название Selaras видно в header и story copy", "Локации и годы проектов читаются частично"]
+    },
+    {
+      "id": "ref-020",
+      "image": "/screens/e5b1ee50861923f50e9a0b98ae0e2b0f.jpg",
+      "source_file": "e5b1ee50861923f50e9a0b98ae0e2b0f.jpg",
+      "analysis_status": "reviewed",
+      "site_name": "Swiss Brut",
+      "site_name_confidence": "visible",
+      "site_type": "design agency portfolio",
+      "family_id": "bold-swiss-systems",
+      "family": "Bold Swiss Systems",
+      "description": "Портфолио Swiss Brut с последовательностью крупных изображений и гигантской жирной типографикой, повторяющейся тонкой навигацией и процессом в виде пронумерованных строк.",
+      "why_it_works": "Крупные слова и макро-фактуры создают сильный брендовый темп, а повторяющаяся сетка навигации удерживает длинную страницу связной.",
+      "tags": ["swiss brutalism", "oversized type", "macro imagery", "repeated navigation", "editorial process"],
+      "colors": [
+        {"hex": "#FFFFFF", "role": "main field", "confidence": "high"},
+        {"hex": "#111111", "role": "display type", "confidence": "high"},
+        {"hex": "#EEEEEE", "role": "ghost typography", "confidence": "high"},
+        {"hex": "#644944", "role": "skin-toned image", "confidence": "medium"},
+        {"hex": "#ABABAB", "role": "metal image", "confidence": "medium"}
+      ],
+      "background": {"description": "чередование белых полей и полноширинных макроизображений", "colors": ["#FFFFFF", "#EEEEEE", "#111111"]},
+      "accent_colors": ["#644944"],
+      "typography": {
+        "style": "ультражирный display grotesk с нейтральным utility sans",
+        "font_character": ["grotesk", "display", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "Brut и Design около 130-190 px; process numbers около 120 px",
+        "body": "10-15 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "крупный split hero, полноширинный макро-кадр, типографический manifesto и процесс",
+        "page_structure": ["case 01", "case 02", "services typography", "process rows"],
+        "columns": "2 в hero, затем 4 в process rows",
+        "image_treatment": "экстремальные кропы лица и материала, предметные миниатюры в process",
+        "proportions": "широкие полноэкранные кадры и малые 4:3 thumbnails",
+        "whitespace": "большой вокруг гигантской типографики"
+      },
+      "grid": {"type": "швейцарская 12-колоночная", "columns": 12, "alignment": "навигация повторяется по одинаковым вертикалям"},
+      "spacing": {"character": "модульный", "section_gap": "крупный", "internal_padding": "8-24 px"},
+      "ui_elements": {
+        "navigation": "четыре текстовые ссылки, повторённые на границах секций",
+        "buttons": "на видимом фрагменте нет явных кнопок",
+        "borders": "тонкие линии process rows",
+        "radii": "нет",
+        "controls": "нумерованные этапы"
+      },
+      "textures": ["кожа", "глянцевый металл", "мягкие предметные градиенты"],
+      "graphic_elements": ["гигантские слова", "ghost typography", "крупные номера"],
+      "inferred_interactions": ["возможные переходы между case-секциями", "hover у work links"],
+      "notes": ["Swiss Brut и Design Agency читаются в hero", "Неизвестно, является ли это реальным сайтом или концептом"]
+    },
+    {
+      "id": "ref-021",
+      "image": "/screens/Screenshot%202026-08-25%20142654.png",
+      "source_file": "Screenshot 2026-08-25 142654.png",
+      "analysis_status": "reviewed",
+      "site_name": "Mosby's Files",
+      "site_name_confidence": "source-verified",
+      "site_type": "architectural research archive / editorial website",
+      "family_id": "graphic-brutalism",
+      "family": "Graphic Brutalism",
+      "description": "Исследовательский архитектурный архив Mosby's Files об американских модернистах, организованный как система цветных CSS-папок, карточек и редакционных досье.",
+      "why_it_works": "Скеоморфная логика архивных папок одновременно служит навигацией и главным визуальным образом, превращая плотный исторический материал в понятную интерактивную систему.",
+      "tags": ["architectural archive", "CSS folders", "skeuomorphic navigation", "condensed display", "editorial motion"],
+      "colors": [
+        {"hex": "#171717", "role": "project background", "confidence": "high"},
+        {"hex": "#EBEBEA", "role": "showcase page background", "confidence": "high"},
+        {"hex": "#D71E1E", "role": "primary tab, verified by Awwwards", "confidence": "high"},
+        {"hex": "#1E4BD7", "role": "blue tab, verified by Awwwards", "confidence": "high"},
+        {"hex": "#0F8B4B", "role": "green tab", "confidence": "medium"},
+        {"hex": "#702270", "role": "purple tab", "confidence": "medium"}
+      ],
+      "background": {"description": "светло-серый showcase canvas с тёмными framed previews", "colors": ["#EBEBEA", "#171717"]},
+      "accent_colors": ["#D71E1E", "#1E4BD7", "#0F8B4B", "#702270"],
+      "typography": {
+        "style": "тяжёлый condensed display в проекте и нейтральный sans в showcase",
+        "font_character": ["condensed", "display", "sans-serif"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "project title 48-72 px; showcase heading 28-36 px",
+        "body": "10-15 px",
+        "text_density": "средняя"
+      },
+      "layout": {
+        "composition": "главный проектный кадр сверху и сетка highlights ниже",
+        "page_structure": ["hero preview", "highlights heading", "двухколоночная сетка экранов"],
+        "columns": "2 в showcase; цветные вкладки внутри project hero",
+        "image_treatment": "скриншоты помещены в тёмные presentation frames",
+        "proportions": "широкие 16:9 и мобильные device previews",
+        "whitespace": "средний"
+      },
+      "grid": {"type": "case-study grid", "columns": 2, "alignment": "равные preview cards"},
+      "spacing": {"character": "системный", "section_gap": "средний", "internal_padding": "20-30 px"},
+      "ui_elements": {
+        "navigation": "в проекте не читается; showcase использует текстовые подписи ссылок",
+        "buttons": "цветные вкладки выглядят интерактивными",
+        "borders": "тёмные толстые frames вокруг previews",
+        "radii": "небольшие у showcase cards",
+        "controls": "tab navigation и page transitions перечислены под previews"
+      },
+      "textures": ["плоские цветовые поля", "тёмный canvas"],
+      "graphic_elements": ["слоистые цветные tabs", "condensed title"],
+      "inferred_interactions": ["page scroll с overlap-коллажем", "hero reveal", "card navigation", "sticky и parallax scroll", "folder page transitions", "mobile scroll animation"],
+      "notes": ["American Modernism — название центрального материала, а не сайта", "Фактическое название Mosby's Files, motion-приёмы и авторство проверены по Awwwards 25 августа 2026"],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/mosbys-files",
+        "live_site_url": "https://www.mosbyfiles.com/",
+        "retrieved_at": "2026-08-25",
+        "source_summary": "Исследовательский архив о ранних американских архитекторах с концептуальной CSS-only системой папок, в которой навигация является частью содержания.",
+        "creators": ["Tubik", "Sergii Valiukh", "Oleg Savenok", "Myky Zhuravlov", "Anastasiia Lutsenko", "Ernest Asanov"],
+        "award": {
+          "name": "Site of the Day",
+          "date": "2026-08-13",
+          "score": 7.23,
+          "score_breakdown": {
+            "design": 7.33,
+            "usability": 7.03,
+            "creativity": 7.29,
+            "content": 7.34
+          },
+          "developer_score": 7.33
+        },
+        "verified_palette": ["#D71E1E", "#1E4BD7"],
+        "disciplines": ["Architecture", "Technology", "Experimental"],
+        "experience_traits": ["Animation", "Navigation Menu", "Unusual Navigation", "Transitions", "Interaction Design", "Footer Design"],
+        "technologies": ["GSAP", "Vue.js"],
+        "cover_image": "/materials/ref-021/awwwards-cover.png",
+        "elements": [
+          {
+            "name": "Page Scroll",
+            "source_url": "https://www.awwwards.com/inspiration/page-scroll-mosbys-files",
+            "tags": ["scroll", "micro-interactions", "drag elements", "overlapping", "collage", "scattered"],
+            "images": ["/materials/ref-021/page-scroll.jpg"],
+            "videos": ["/materials/ref-021/page-scroll.mp4"]
+          },
+          {
+            "name": "Reveal Animation & Hero Navigation",
+            "source_url": "https://www.awwwards.com/inspiration/reveal-animation-hero-navigation-mosbys-files",
+            "tags": ["intro animation", "page load animation", "main navigation", "card navigation", "hover animation", "hero intro"],
+            "images": [],
+            "videos": ["/materials/ref-021/reveal-hero-navigation.mp4"]
+          },
+          {
+            "name": "About",
+            "source_url": "https://www.awwwards.com/inspiration/about-mosbys-files",
+            "tags": ["page transition", "scroll", "sticky scroll", "parallax"],
+            "images": ["/materials/ref-021/about.jpg"],
+            "videos": ["/materials/ref-021/about.mp4"]
+          },
+          {
+            "name": "Mobile Motion",
+            "source_url": "https://www.awwwards.com/inspiration/mobile-mosbys-files-1",
+            "tags": ["mobile", "responsive", "scroll animation", "page transition"],
+            "images": ["/materials/ref-021/mobile-motion.jpg"],
+            "videos": ["/materials/ref-021/mobile-motion.mp4"]
+          },
+          {
+            "name": "Page Transition",
+            "source_url": "https://www.awwwards.com/inspiration/page-transition-mosbys-files",
+            "tags": ["folder", "card", "animation"],
+            "images": ["/materials/ref-021/page-transition.jpg"],
+            "videos": ["/materials/ref-021/page-transition.mp4"]
+          },
+          {
+            "name": "Desktop View",
+            "source_url": "https://www.awwwards.com/inspiration/desktop-mosbys-files",
+            "tags": ["desktop", "folder navigation", "editorial archive"],
+            "images": ["/materials/ref-021/desktop.png"]
+          },
+          {
+            "name": "Mobile Screens",
+            "source_url": "https://www.awwwards.com/inspiration/mobile-mosbys-files",
+            "tags": ["mobile", "responsive", "folder navigation"],
+            "images": ["/materials/ref-021/mobile.png"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ref-022",
+      "image": "/screens/Screenshot%202026-08-25%20142742.png",
+      "source_file": "Screenshot 2026-08-25 142742.png",
+      "analysis_status": "reviewed",
+      "site_name": "Nothin'",
+      "site_name_confidence": "visible-project-title",
+      "site_type": "creative studio portfolio",
+      "family_id": "graphic-brutalism",
+      "family": "Graphic Brutalism",
+      "description": "Портфолио парижской студии Nothin' с чёрно-белым hero, объёмными буквами, текучими масками и серией экспериментальных видео, 3D и project-grid сцен.",
+      "why_it_works": "Объёмная типографика создаёт сильный контраст с плоской чёрно-белой базой, а серия highlights показывает, как один приём масштабируется на разные носители.",
+      "tags": ["3D typography", "black and white", "creative portfolio", "abstract mask", "motion showcase"],
+      "colors": [
+        {"hex": "#000000", "role": "project type and shapes", "confidence": "high"},
+        {"hex": "#FFFFFF", "role": "project background", "confidence": "high"},
+        {"hex": "#EBEBEB", "role": "showcase canvas", "confidence": "high"},
+        {"hex": "#B0B4B5", "role": "metallic letters", "confidence": "medium"},
+        {"hex": "#2F2BFF", "role": "interactive 3D accent", "confidence": "medium"},
+        {"hex": "#46535C", "role": "video still", "confidence": "medium"}
+      ],
+      "background": {"description": "светло-серый showcase canvas с почти чёрными frames; внутри проекта белый и чёрный", "colors": ["#EBEBEB", "#222222", "#FFFFFF", "#000000"]},
+      "accent_colors": ["#2F2BFF", "#B0B4B5"],
+      "typography": {
+        "style": "ультражирный grotesk и 3D display lettering",
+        "font_character": ["grotesk", "display", "3D lettering"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "Nothin' около 110-170 px в hero; showcase 28-36 px",
+        "body": "10-14 px",
+        "text_density": "низкая"
+      },
+      "layout": {
+        "composition": "гигантская типографика пересекается с органической чёрной формой и 3D-объектом",
+        "page_structure": ["hero preview", "highlights heading", "двухколоночная сетка motion и content examples"],
+        "columns": "2 в showcase; свободный poster hero в проекте",
+        "image_treatment": "3D-буквы, видео-still и проектные screenshots",
+        "proportions": "широкий hero и равные preview tiles",
+        "whitespace": "средний"
+      },
+      "grid": {"type": "showcase grid", "columns": 2, "alignment": "равные preview cards под крупным hero"},
+      "spacing": {"character": "системный с экспериментальным содержанием", "section_gap": "средний", "internal_padding": "20-30 px"},
+      "ui_elements": {
+        "navigation": "минимальная, маленькая menu-кнопка в hero",
+        "buttons": "малый чёрный pill CTA",
+        "borders": "тёмные frames showcase cards",
+        "radii": "небольшие у frames и CTA",
+        "controls": "mouse interaction, video и content links указаны в подписях"
+      },
+      "textures": ["металлическая 3D-поверхность", "размытое видео", "плоский чёрный силуэт"],
+      "graphic_elements": ["надувные 3D-буквы", "органическая маска", "гигантский wordmark"],
+      "inferred_interactions": ["реакция hero shader на мышь", "видеофон", "custom cursor", "parallax в works", "анимированное раскрытие footer"],
+      "notes": ["Первичный скриншот сделан со showcase-страницы", "Интерактивность, технологии и авторство дополнительно проверены по странице Awwwards 25 августа 2026"],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/nothin",
+        "live_site_url": "https://www.noth.in",
+        "retrieved_at": "2026-08-25",
+        "source_summary": "Парижская студия на пересечении fashion, luxury и tech, работающая с брендингом, editorial, art direction и AI-системами.",
+        "creators": ["Thomas Carré", "Pierre Patrault", "Nothin"],
+        "award": {
+          "name": "Site of the Day",
+          "date": "2026-08-10",
+          "score": 7.45,
+          "score_breakdown": {
+            "design": 7.58,
+            "usability": 7.24,
+            "creativity": 7.6,
+            "content": 7.23
+          },
+          "developer_score": 7.24
+        },
+        "verified_palette": ["#FFFFFF", "#000000"],
+        "disciplines": ["Design Agencies", "Web & Interactive", "Experimental", "Portfolio"],
+        "experience_traits": ["Parallax", "Scrolling", "3D", "Photo & Video", "Microinteractions"],
+        "technologies": ["WebGL", "GSAP", "Webflow"],
+        "cover_image": "/materials/ref-022/awwwards-cover.jpg",
+        "elements": [
+          {
+            "name": "Hero Shaders",
+            "source_url": "https://www.awwwards.com/inspiration/hero-shaders-nothin",
+            "tags": ["webgl", "shader", "gsap", "3d", "svg", "mouse"],
+            "images": [
+              "/materials/ref-022/hero-shaders-01.jpg",
+              "/materials/ref-022/hero-shaders-02.jpg",
+              "/materials/ref-022/hero-shaders-03.jpg"
+            ]
+          },
+          {
+            "name": "IA Video Background",
+            "source_label": "IA Video backkground",
+            "source_url": "https://www.awwwards.com/inspiration/ia-video-backkground-nothin",
+            "tags": ["video", "ia", "colorful", "perspective"],
+            "images": [
+              "/materials/ref-022/ia-video-background-01.jpg",
+              "/materials/ref-022/ia-video-background-02.jpg"
+            ]
+          },
+          {
+            "name": "Footer Design",
+            "source_url": "https://www.awwwards.com/inspiration/footer-design-nothin",
+            "tags": ["footer", "svg", "mouse interaction", "animation", "reveal"],
+            "images": ["/materials/ref-022/footer-design.jpg"]
+          },
+          {
+            "name": "Works Page",
+            "source_url": "https://www.awwwards.com/inspiration/works-page-nothin",
+            "tags": ["works", "grid", "custom cursor", "parallax", "gsap"],
+            "images": ["/materials/ref-022/works-page.jpg"]
+          },
+          {
+            "name": "Attractive 3D",
+            "source_url": "https://www.awwwards.com/inspiration/attractive-3d-nothin",
+            "tags": ["3d", "2d", "mouse", "cursor", "attractive", "repulsive"],
+            "images": ["/materials/ref-022/attractive-3d.jpg"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ref-023",
+      "image": "/screens/illoca-awwwards-cover.jpg",
+      "source_file": "illoca-awwwards-cover.jpg",
+      "analysis_status": "source-reviewed",
+      "site_name": "Illoca",
+      "site_name_confidence": "source-verified",
+      "site_type": "AI product / architectural design tool",
+      "family_id": "spatial-digital",
+      "family": "Spatial Digital",
+      "description": "Промо-сайт AI-инструмента для архитекторов, построенный как живой цифровой скетчбук: чертёжная бумага, кобальтовые иллюстрации, крупная типографика и интерактивные 3D-сцены связывают продукт с привычным процессом проектирования.",
+      "why_it_works": "Технический продукт объясняется через знакомую архитектору материальность эскиза, а последовательные motion-сцены превращают функции в наглядный пространственный рассказ.",
+      "tags": [
+        "architectural AI",
+        "spatial storytelling",
+        "blueprint palette",
+        "hand-drawn notes",
+        "WebGL motion",
+        "layered sections"
+      ],
+      "colors": [
+        {
+          "hex": "#3B60C5",
+          "role": "primary blue, verified by Awwwards",
+          "confidence": "high"
+        },
+        {
+          "hex": "#FDF2DE",
+          "role": "paper background, verified by Awwwards",
+          "confidence": "high"
+        },
+        {
+          "hex": "#202738",
+          "role": "headings and dark blue sections",
+          "confidence": "medium"
+        },
+        {
+          "hex": "#91A9BC",
+          "role": "architectural illustration midtone",
+          "confidence": "medium"
+        },
+        {
+          "hex": "#E35A45",
+          "role": "CTA icon accent",
+          "confidence": "medium"
+        }
+      ],
+      "background": {
+        "description": "тёплое кремовое поле с тонкой чертёжной сеткой, чередующееся с насыщенными синими сценами",
+        "colors": ["#FDF2DE", "#3B60C5", "#202738"]
+      },
+      "accent_colors": ["#3B60C5", "#E35A45", "#91A9BC"],
+      "typography": {
+        "style": "крупный нейтральный grotesk в паре с моноширинной навигацией и рукописными аннотациями",
+        "font_character": ["grotesk", "monospace", "handwritten display"],
+        "exact_font": "Не определён по скриншоту",
+        "headings": "примерно 96-140 px на desktop и 42-56 px на mobile; плотные многострочные заголовки",
+        "body": "примерно 16-22 px; служебный текст и навигация 12-15 px",
+        "text_density": "низкая в hero, средняя в продуктовых секциях"
+      },
+      "layout": {
+        "composition": "крупный центрированный заголовок над полноширинной иллюстрацией; далее асимметричные split-секции и перекрывающиеся пространственные блоки",
+        "page_structure": [
+          "компактная framed navigation",
+          "типографический hero",
+          "полноширинная WebGL-иллюстрация",
+          "серия feature-секций с demo pullout",
+          "редакционный open-letter блок",
+          "overlapping footer sections"
+        ],
+        "columns": "12-колоночная логика; hero по центральной оси, feature-блоки делятся на узкую текстовую и широкую визуальную зоны",
+        "image_treatment": "стилизованные архитектурные 3D-иллюстрации занимают 60-75% секции и сохраняют широкие пропорции",
+        "proportions": "широкие 4:3 и 16:9 сцены; отдельная адаптированная мобильная композиция",
+        "whitespace": "щедрый вокруг hero и заголовков, более плотный внутри framed UI"
+      },
+      "grid": {
+        "type": "editorial product grid with spatial overlays",
+        "columns": 12,
+        "alignment": "центральная ось в hero и асимметричное деление 4/8 в feature-секциях"
+      },
+      "spacing": {
+        "character": "крупные внешние поля и контролируемые editorial-интервалы",
+        "section_gap": "80-160 px на desktop",
+        "internal_padding": "24-48 px в контентных панелях; навигация заметно плотнее"
+      },
+      "ui_elements": {
+        "navigation": "компактная плавающая панель с логотипом, текстовыми ссылками и выделенным CTA",
+        "buttons": "прямоугольные bordered-кнопки; основной CTA с синим полем и маленькой коралловой пиктограммой",
+        "borders": "тонкие тёмные линии, framed navigation и контуры интерактивных карточек",
+        "radii": "минимальные, только лёгкое смягчение внешних рамок",
+        "controls": "demo pullouts, интерактивные WebGL-блоки и mouse-driven reveal"
+      },
+      "textures": [
+        "чертёжная сетка",
+        "бумажное зерно",
+        "карандашные контуры",
+        "рукописные пометки"
+      ],
+      "graphic_elements": [
+        "кобальтовые архитектурные сцены",
+        "объёмные UI-пиктограммы",
+        "координатные подписи",
+        "слои эскизов и планов"
+      ],
+      "inferred_interactions": [
+        "mouse-driven reveal",
+        "WebGL 3D interaction",
+        "scroll storytelling",
+        "feature demo pullout",
+        "интерактивные блоки",
+        "перекрывающиеся секции при прокрутке"
+      ],
+      "notes": [
+        "Название, назначение продукта, авторство, награда, дата, палитра и WebGL проверены по Awwwards 25 августа 2026",
+        "Awwwards не показывает итоговый числовой рейтинг для этого Honorable Mention, поэтому score не указан",
+        "Точные гарнитуры по опубликованным кадрам не определяются"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/illoca",
+        "live_site_url": "https://illoca.unseen.co/",
+        "retrieved_at": "2026-08-25",
+        "source_summary": "AI-native design engine для профессиональных архитекторов: помогает развивать первые идеи и переводить их в редактируемые 2D- и 3D-проекты.",
+        "creators": ["Unseen Studio"],
+        "award": {
+          "name": "Honorable Mention",
+          "date": "2026-07-29",
+          "score": null,
+          "developer_score": null
+        },
+        "verified_palette": ["#3B60C5", "#FDF2DE"],
+        "disciplines": ["Culture & Education", "Architecture", "Startups"],
+        "experience_traits": ["Animation", "Colorful", "Scrolling", "3D", "Microinteractions"],
+        "technologies": ["WebGL"],
+        "cover_image": "/materials/ref-023/awwwards-cover.jpg",
+        "elements": [
+          {
+            "name": "Mobile View",
+            "source_url": "https://www.awwwards.com/inspiration/mobile-illoca",
+            "tags": ["mobile", "responsive", "architectural illustration"],
+            "images": ["/materials/ref-023/mobile.jpg"]
+          },
+          {
+            "name": "Desktop View",
+            "source_url": "https://www.awwwards.com/inspiration/desktop-illoca",
+            "tags": ["desktop", "responsive", "product hero"],
+            "images": ["/materials/ref-023/desktop.jpg"]
+          },
+          {
+            "name": "Reveal Interaction",
+            "source_url": "https://www.awwwards.com/inspiration/reveal-interaction-illoca",
+            "tags": ["webgl", "interaction", "3d", "illustration"],
+            "images": ["/materials/ref-023/reveal-interaction.jpg"],
+            "videos": ["/materials/ref-023/reveal-interaction.mp4"]
+          },
+          {
+            "name": "Homepage Scrolling Motion",
+            "source_url": "https://www.awwwards.com/inspiration/homepage-scrolling-motion-illoca",
+            "tags": ["webgl", "stylised", "storytelling", "product features", "3d", "illustration"],
+            "images": ["/materials/ref-023/homepage-scrolling.jpg"],
+            "videos": ["/materials/ref-023/homepage-scrolling.mp4"]
+          },
+          {
+            "name": "Feature Demo Pullout",
+            "source_url": "https://www.awwwards.com/inspiration/feature-demo-pullout-illoca",
+            "tags": ["ui", "interaction", "video"],
+            "images": ["/materials/ref-023/feature-demo-pullout.jpg"],
+            "videos": ["/materials/ref-023/feature-demo-pullout.mp4"]
+          },
+          {
+            "name": "Interactive Blocks",
+            "source_url": "https://www.awwwards.com/inspiration/interactive-blocks-illoca",
+            "tags": ["webgl", "mouse interaction", "interaction", "3d"],
+            "images": ["/materials/ref-023/interactive-blocks.jpg"],
+            "videos": ["/materials/ref-023/interactive-blocks.mp4"]
+          },
+          {
+            "name": "Overlapping Sections",
+            "source_url": "https://www.awwwards.com/inspiration/overlapping-sections-illoca",
+            "tags": ["ui", "interactions", "scroll animations"],
+            "images": ["/materials/ref-023/overlapping-sections.jpg"],
+            "videos": ["/materials/ref-023/overlapping-sections.mp4"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ref-024",
+      "image": "/screens/benorth-studio-awwwards-cover.jpg",
+      "source_file": "benorth-studio-awwwards-cover.jpg",
+      "analysis_status": "source-reviewed",
+      "site_name": "BeNorth Studio",
+      "site_name_confidence": "source-verified",
+      "site_type": "B Corp branding studio / portfolio / shop",
+      "family_id": "bold-swiss-systems",
+      "family": "Bold Swiss Systems",
+      "description": "Портфолио баскской брендинговой студии соединяет строгую швейцарскую основу с игровым коллажем: гигантский wordmark, плавающие фотографии и 3D-стикеры сменяются рациональными индексами проектов, редакционными кейсами и магазином мерча.",
+      "why_it_works": "Единая чёрно-молочная система и оранжевый сигнал удерживают вместе очень разные форматы, а смена коллажного hero, списков, архивов и кейсов показывает характер студии без потери навигационной ясности.",
+      "tags": [
+        "oversized grotesk",
+        "orange accent",
+        "playful collage",
+        "modular portfolio",
+        "Swiss navigation",
+        "hover previews"
+      ],
+      "colors": [
+        {
+          "hex": "#FF7002",
+          "role": "primary accent, verified by Awwwards",
+          "confidence": "high"
+        },
+        {
+          "hex": "#F4F3EF",
+          "role": "warm page background, verified by Awwwards",
+          "confidence": "high"
+        },
+        {
+          "hex": "#0B0B0A",
+          "role": "typography and dark archive sections",
+          "confidence": "high"
+        },
+        {
+          "hex": "#A9A7A1",
+          "role": "muted labels and inactive project rows",
+          "confidence": "medium"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "light cards and reversed text",
+          "confidence": "high"
+        }
+      ],
+      "background": {
+        "description": "почти белое тёплое поле в основных разделах и глубокий почти чёрный фон в архивных и экспериментальных сценах",
+        "colors": ["#F4F3EF", "#0B0B0A", "#FFFFFF"]
+      },
+      "accent_colors": ["#FF7002"],
+      "typography": {
+        "style": "широкий нейтральный grotesk с экстремальной шкалой размеров, дополненный моноширинными метками и техническими координатами",
+        "font_character": ["grotesk", "monospace", "oversized display"],
+        "exact_font": "Не определён по опубликованным кадрам",
+        "headings": "примерно 88-150 px в hero и studio-разделах; 48-72 px в списках и кейсах",
+        "body": "примерно 16-25 px; служебные подписи 11-14 px",
+        "text_density": "низкая в hero, средняя в studio и case-study, высокая в технических индексах"
+      },
+      "layout": {
+        "composition": "свободный коллаж поверх гигантского wordmark в hero, затем строгие полноэкранные списки, асимметричные project grids и редакционные split-layouts",
+        "page_structure": [
+          "постоянная pill-navigation",
+          "коллажный hero",
+          "портфолио с grid/list режимами и фильтрами",
+          "архив Unseen",
+          "экспериментальный раздел BeNext",
+          "studio и team sections",
+          "детальные case studies",
+          "ecommerce grid и product page"
+        ],
+        "columns": "12-колоночная система с 2-3 крупными карточками; кейсы часто делятся на две равные или 5/7 зоны",
+        "image_treatment": "сочетание полноширинной фотографии, карточек разных пропорций, mockup-сцен и свободно плавающих коллажных объектов",
+        "proportions": "широкие 4:3 и 16:9 кадры, квадратные project cards, вертикальные mobile и product previews",
+        "whitespace": "очень щедрый в индексах и редакционных секциях; намеренно плотный в hero-коллаже"
+      },
+      "grid": {
+        "type": "Swiss modular portfolio grid",
+        "columns": 12,
+        "alignment": "строгая верхняя навигационная ось, переменная 3-колоночная выдача и структурированные 2-колоночные кейсы"
+      },
+      "spacing": {
+        "character": "крупные внешние поля с плотными группами controls",
+        "section_gap": "96-180 px на desktop",
+        "internal_padding": "24-80 px в зависимости от режима; pill-controls 10-18 px"
+      },
+      "ui_elements": {
+        "navigation": "три bordered pill-ссылки, центрированный wordmark, компактные menu/language controls; на mobile — hamburger",
+        "buttons": "контурные pills с стрелками, чёрное активное состояние и оранжевые CTA",
+        "borders": "тонкие серые разделители, контурные chips и рамки переключателей",
+        "radii": "полные скругления у pills; умеренные скругления у экранных frames и product controls",
+        "controls": "filters, grid/list switch, hover previews, language toggle, quantity selector и add-to-cart"
+      },
+      "textures": [
+        "глянцевые 3D-объекты",
+        "архивная фотография",
+        "плёночное зерно",
+        "прозрачная упаковка и печатные материалы"
+      ],
+      "graphic_elements": [
+        "гигантский обрезанный wordmark",
+        "оранжевые 3D-буквы",
+        "стикеры и штампы",
+        "координаты Zarautz",
+        "коллажные фотографии",
+        "моноширинные статусы"
+      ],
+      "inferred_interactions": [
+        "рандомизированный архивный коллаж",
+        "glitch и terminal-like interaction",
+        "переключение grid/list",
+        "фильтры и hover preview",
+        "custom cursor и parallax",
+        "drag-carousel с inertia",
+        "case-study video и scroll",
+        "shopping cart и add-to-cart"
+      ],
+      "notes": [
+        "Название, тип студии, двуязычность ES/EU, авторство, награда, дата, палитра и технологии проверены по Awwwards 25 августа 2026",
+        "Awwwards не показывает итоговый числовой рейтинг для этого Honorable Mention, поэтому score не указан",
+        "Точные гарнитуры по опубликованным кадрам не определяются"
+      ],
+      "source_materials": {
+        "source_name": "Awwwards",
+        "source_url": "https://www.awwwards.com/sites/benorth-studio-brand-studio",
+        "live_site_url": "https://benorth.studio/es",
+        "retrieved_at": "2026-08-25",
+        "source_summary": "B Corp брендинговая студия из Zarautz, Basque Country. Двуязычное портфолио использует айдентику, motion и игровые взаимодействия, чтобы раскрывать проекты как истории, связанные с местом.",
+        "creators": ["BeNorth.Studio"],
+        "award": {
+          "name": "Honorable Mention",
+          "date": "2026-07-27",
+          "score": null,
+          "developer_score": null
+        },
+        "verified_palette": ["#FF7002", "#F4F3EF"],
+        "disciplines": ["Design Agencies", "Portfolio", "UI design"],
+        "experience_traits": ["Animation", "Clean", "Responsive Design", "Interaction Design"],
+        "technologies": ["Vercel", "Next.js", "Sanity"],
+        "cover_image": "/materials/ref-024/awwwards-cover.jpg",
+        "elements": [
+          {
+            "name": "Unseen",
+            "source_url": "https://www.awwwards.com/inspiration/unseen-benorth-studio-brand-studio",
+            "tags": ["gallery", "collage", "archive", "randomized"],
+            "images": [
+              "/materials/ref-024/unseen-01.jpg",
+              "/materials/ref-024/unseen-02.jpg"
+            ]
+          },
+          {
+            "name": "BeNext",
+            "source_url": "https://www.awwwards.com/inspiration/benext-benorth-studio-brand-studio",
+            "tags": ["glitch", "terminal", "interaction", "experimental", "data viz", "lab"],
+            "images": [
+              "/materials/ref-024/benext-01.jpg",
+              "/materials/ref-024/benext-02.jpg"
+            ]
+          },
+          {
+            "name": "Projects Index",
+            "source_url": "https://www.awwwards.com/inspiration/projects-index-benorth-studio-brand-studio",
+            "tags": ["grid", "list view", "filters", "hover preview", "custom cursor", "parallax"],
+            "images": [
+              "/materials/ref-024/projects-index-01.jpg",
+              "/materials/ref-024/projects-index-02.jpg",
+              "/materials/ref-024/projects-index-03.jpg"
+            ]
+          },
+          {
+            "name": "Studio",
+            "source_url": "https://www.awwwards.com/inspiration/studio-benorth-studio-brand-studio",
+            "tags": ["slider", "drag", "inertia", "carousel", "hover", "parallax"],
+            "images": [
+              "/materials/ref-024/studio-01.jpg",
+              "/materials/ref-024/studio-02.jpg",
+              "/materials/ref-024/studio-03.jpg"
+            ]
+          },
+          {
+            "name": "Copreci — Case Study",
+            "source_url": "https://www.awwwards.com/inspiration/copreci-case-study-benorth-studio-brand-studio",
+            "tags": ["case study", "video", "editorial layout", "parallax", "scroll", "branding"],
+            "images": [
+              "/materials/ref-024/copreci-01.jpg",
+              "/materials/ref-024/copreci-02.jpg",
+              "/materials/ref-024/copreci-03.jpg"
+            ]
+          },
+          {
+            "name": "Desktop View",
+            "source_url": "https://www.awwwards.com/inspiration/desktop-benorth-studio-brand-studio",
+            "tags": ["desktop", "responsive", "collage hero"],
+            "images": ["/materials/ref-024/desktop.jpg"]
+          },
+          {
+            "name": "Mobile View",
+            "source_url": "https://www.awwwards.com/inspiration/mobile-benorth-studio-brand-studio",
+            "tags": ["mobile", "responsive", "adaptive composition"],
+            "images": ["/materials/ref-024/mobile.jpg"]
+          },
+          {
+            "name": "BeNorth - Shop",
+            "source_url": "https://www.awwwards.com/inspiration/benorth-shop-benorth-studio-brand-studio",
+            "tags": ["shop", "ecommerce", "product page", "add to cart", "cart", "minimal"],
+            "images": [
+              "/materials/ref-024/shop-01.png",
+              "/materials/ref-024/shop-02.png",
+              "/materials/ref-024/shop-03.png"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "families": [
+    {
+      "id": "studio-minimal",
+      "name": "Studio Minimal",
+      "description": "Светлые сайты студий с крупной гротескной типографикой, спокойной фотоподачей и большим количеством воздуха. Выразительность создаётся масштабом текста и сменой широких и узких контентных блоков.",
+      "reference_count": 2,
+      "common_tags": ["oversized sans", "soft monochrome", "large whitespace", "studio portfolio"],
+      "palette": ["#F4F4F4", "#FFFFFF", "#171717", "#9C948A"],
+      "composition_principles": ["Крупный типографический вход", "Спокойные полноширинные изображения", "Ассиметричные текстовые пары", "Много вертикального воздуха"]
+    },
+    {
+      "id": "spatial-digital",
+      "name": "Spatial Digital",
+      "description": "Технологические промо-страницы, где интерфейс строится вокруг пространственной метафоры или единого графического поля. Белый фон, тонкая геометрия и минимум акцентов создают ощущение цифрового прототипа.",
+      "reference_count": 3,
+      "common_tags": ["spatial interface", "tech minimal", "white field", "conceptual hero"],
+      "palette": ["#FFFFFF", "#E3E4E8", "#171717", "#FF6B45"],
+      "composition_principles": ["Один доминирующий hero", "Геометрия работает как навигационная среда", "Центральная ось", "Мелкие элементы поддерживают большой жест"]
+    },
+    {
+      "id": "product-precision",
+      "name": "Product Precision",
+      "description": "Рациональная продуктовая подача с крупными рендерами, строгими карточками и технической типографикой. Изображение продукта становится главным аргументом, а текст объясняет детали короткими модулями.",
+      "reference_count": 2,
+      "common_tags": ["product render", "modular layout", "technical clarity", "monochrome"],
+      "palette": ["#FFFFFF", "#EAEAEA", "#111111", "#696A6A", "#CDD4C6"],
+      "composition_principles": ["Крупный объект на нейтральном поле", "Модульные спецификации", "Чёткие подписи", "Контраст светлых и тёмных секций"]
+    },
+    {
+      "id": "architectural-editorial",
+      "name": "Architectural Editorial",
+      "description": "Архитектурные сайты, соединяющие строгую редакционную сетку с крупной проектной фотографией. В основе лежат масштабные заголовки, тонкие линии и ясная последовательность кейсов.",
+      "reference_count": 4,
+      "common_tags": ["architecture", "editorial grid", "large imagery", "structured typography"],
+      "palette": ["#F5F5F5", "#111111", "#BFCCD1", "#755F51", "#B3241D"],
+      "composition_principles": ["Фотография занимает большую часть экрана", "Текст привязан к сетке", "Кейсы чередуются с объясняющими блоками", "Навигация компактная и периферийная"]
+    },
+    {
+      "id": "refined-interiors",
+      "name": "Refined Interiors",
+      "description": "Премиальные сайты интерьерных студий с атмосферной фотографией, мягкой природной палитрой и сдержанной типографикой. Пространство и материалы задают тон, UI остаётся почти незаметным.",
+      "reference_count": 2,
+      "common_tags": ["interior photography", "quiet luxury", "natural palette", "restrained UI"],
+      "palette": ["#FAF9F5", "#25262A", "#63503B", "#B6AB9B", "#17344F"],
+      "composition_principles": ["Атмосферный hero", "Небольшие текстовые модули", "Широкие поля", "Материалы и свет важнее декора интерфейса"]
+    },
+    {
+      "id": "bold-swiss-systems",
+      "name": "Bold Swiss Systems",
+      "description": "Жёсткие швейцарские сетки с огромной гротескной типографикой, контрастной фотографией и единичным красно-оранжевым акцентом. Контент выглядит как плакат, но сохраняет системную структуру.",
+      "reference_count": 5,
+      "common_tags": ["swiss grid", "oversized type", "red accent", "high contrast", "modular system"],
+      "palette": ["#F5F5F5", "#111111", "#FF3B30", "#FF7002", "#A09E97"],
+      "composition_principles": ["Типографика как изображение", "Контраст крупного и микротекста", "Жёсткие модульные колонки", "Один насыщенный акцент"]
+    },
+    {
+      "id": "graphic-brutalism",
+      "name": "Graphic Brutalism",
+      "description": "Экспериментальные монохромные сайты и постерные композиции с грубой текстурой, сжатым display-шрифтом и намеренно резкими контрастами. Макет держится на визуальном ударе, а не на привычной UI-мягкости.",
+      "reference_count": 5,
+      "common_tags": ["graphic brutalism", "poster composition", "condensed display", "grain", "black and white"],
+      "palette": ["#080808", "#F0F0F0", "#BFBFBF", "#E31821", "#2347D8"],
+      "composition_principles": ["Плакатный масштаб", "Нарушение привычной иерархии", "Текстура и коллаж", "Резкое чередование чёрных и белых полей"]
+    },
+    {
+      "id": "blank-capture",
+      "name": "Blank Capture",
+      "description": "Техническая группа для изображения, на котором не виден интерфейс или иной анализируемый контент. Она отделена от стилевых референсов, чтобы не приписывать пустому кадру несуществующий дизайн.",
+      "reference_count": 1,
+      "common_tags": ["blank frame", "unclassified", "no visible UI"],
+      "palette": ["#000000"],
+      "composition_principles": ["Определяемая композиция отсутствует"]
+    }
+  ]
+}
